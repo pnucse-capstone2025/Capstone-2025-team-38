@@ -1,237 +1,167 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nRcUn8vA)
-# Template for Capstone
-이 레파지토리는 학생들이 캡스톤 프로젝트 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. 레파지토리 제출 
-4. README.md 가이드라인
-5. README.md 작성팁
+# 마이크로 컨트롤러에서의 안전한 로봇 어플리케이션 수행을 위한 원격 증명 기술 개발
+## 1. 연구 배경
+### 1.1. 사전 조사
+<a name="figure1"></a>
+![사장조사 이미지](img/img1.png)
 
----
+최근 사물 인터넷(IoT)과 로봇 기술의 발전으로 MCU(Micro Controller Unit)는 단순 제어를 넘어 자율주행, 스마트 팩토리 등 복잡하고 중요한 역할을 수행하게 되었습니다. 이러한 역할 확대에 힘입어 MCU 시장은 [Figure 1](#figure1)과 같이 지속적인 성장이 전망됩니다. MCU는 센서 데이터 수집, 통신 등 시스템의 핵심 기능을 담당하지만 크기와 전력 소비를 최소화하기 위해 연산 능력과 메모리가 제한적이라는 특징을 가집니다. 이로 인해 일반 컴퓨팅 환경의 복잡한 보안 프로토콜을 적용하기 어려워 악의적인 공격에 취약합니다. 만약 MCU의 소프트웨어가 변조될 경우 시스템 오작동을 넘어 물리적 파손이나 심각한 인명 피해로 이어질 수 있어 자원 제약 환경에 최적화된 경량 무결성 검증 기술 확보가 필수적입니다[[1]](#ref1).
 
-## 1. 레파지토리 생성
-- [https://classroom.github.com/a/nRcUn8vA](https://classroom.github.com/a/nRcUn8vA)
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
+### 1.2. 기존의 문제점
+- Micro-ROS[[2]](#ref2) 및 ROS2[[3]](#ref3)의 보안 기능 미흡: 경량화에 초점을 맞춘 Micro-ROS는 인증, 암호화 같은 보안 기능이 충분히 구현되어 있지 않으며 저사양 MCU에서는 추가적인 자원 요구로 인해 보안 기능 구현 자체가 어렵습니다. 또한 하나의 노드가 탈취되면 연결된 모든 기기가 위험에 노출되는 구조적 한계를 가집니다.
 
-<img width="700" alt="깃헙 클래스룸 레포 생성" src="https://github.com/user-attachments/assets/34ca1f43-c2cd-4880-a39e-0dafd889c35f" />
+- 기존 원격 증명 기술의 한계: TPM(Trusted Platform Module)과 같은 전통적인 원격 증명 기술은 고성능 CPU와 전용 보안 칩이 필요해 MCU 환경에 적용하기 어렵습니다. 또한 ARMv8-M 아키텍처에 최적화된 TF-M 같은 기술은 대다수의 저사양 MCU에서 지원하지 않아 범용성이 떨어집니다.
 
-- 레포지토리 생성 시 팀명은 `TEAM-{조 번호}` 형식으로 생성하세요.
-- 예를 들어, 2025년도 3조의 팀명은 `TEAM-03` 입니다.
-- 이 경우 `Capstone2025-team-03`이란 이름으로 레파지토리가 생성됩니다.
+- 통신 보안의 부재: Micro-ROS의 핵심 통신 프로토콜인 DDS는 보안 기능이 기본적으로 미비하여 중간자(Man-in-the-Middle) 공격이나 Replay 공격에 쉽게 노출됩니다.
 
----
+### 1.3. 필요성과 기대효과
+본 연구는 자원이 제한된 MCU 기반 로봇 시스템의 보안 취약점을 해결하기 위해 필수적입니다. 로봇 시스템의 네트워크 연결성 증대는 보안 위협 증가로 이어지며 공격받을 경우 시스템 마비나 잘못된 제어 명령 전달로 심각한 안전 문제를 야기할 수 있습니다.
 
-## 2. 레파지토리 구성
-- 레파지토리 내에 README.md 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 README.md 파일을 작성하세요. (이 레파지토리의 SAMPLE_README.md 참조)
-- 레파지토리 내에 docs 디렉토리를 생성하고 docs 디렉토리 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다. (이 레파지토리의 docs 디렉토리 참조)
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 디렉토리를 나누어 구성하세요.
+본 연구를 통해 MCU 환경에서도 원격 증명 기술을 효과적으로 적용할 수 있음을 입증하고 시스템의 보안 요구사항과 자원 제약에 따라 선택할 수 있는 
+다각적인 보안 솔루션(DICE, DICE+MPU, TF-M+TZ-M)을 제시하는 데 의의가 있습니다. 이는 로봇 어플리케이션의 신뢰성과 안전성을 크게 향상시킬 것으로 기대됩니다.
 
----
+## 2. 개발 목표
+### 2.1. 목표 및 세부 내용
+Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 부팅 시점의 원격 증명 기술을 통합하여 안전한 보안 구조를 구현하는것이 목표이며 다음과 같은 3가지 Root of Trust 기반 보안 구조 설계 및 구현을 진행합니다.
+- **DICE (Device Identifier Composition Engine)**[[4]](#ref4) 단독 구조
 
-## 3. 레파지토리 제출 
+- **DICE (Device Identifier Composition Engine)** 와 **MPU (Memory Protection Unit)**[[5]](#ref5) 를 결합한 구조
 
-- **`[주의]` 레파지토리 제출**은 해당 레파지토리의 ownership을 **학과 계정**으로 넘기는 것이므로 되돌릴 수 없습니다.
-- **레파지토리 제출** 전, 더 이상 수정 사항이 없는지 다시 한번 확인하세요.
-- github 레파지토리에서 Settings > General > Danger zone > Transfer 클릭
-  <img src="https://github.com/user-attachments/assets/cb2361d4-e07e-4b5d-9116-aa80dddd8a8b" alt="소유주 변경 경로" width="500" />
-  
-- [ Specify an organization or username ]에 'PNUCSE'를 입력하고 확인 메세지를 입력하세요.
-  <img src="https://github.com/user-attachments/assets/7c63955d-dcfe-4ac3-bdb6-7d2620575f3a" alt="소유주 변경" width="400" />
+- **TF-M (TrustedFirmware-M)**[[6]](#ref6) 과 **TZ-M (TrustZone-M)**[[7]](#ref7) 을 통합한 구조
 
----
+추가적으로 기본 Micro-ROS와 구현한 3가지 구조의 통신 시간, board cycle, firmware size를 종합적으로 비교하여 자원이 제한된 MCU 시스템에서 원격 증명 기술이 실질적으로 동작하며 효과적임을 증명합니다.
 
-## 4. README.md 가이드 라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
-- SAMPLE_README.md 이 단순한 형태의 예제이니 참고하세요.
+### 2.2. 기존 서비스 대비 차별성 
 
-```markdown
-### 1. 프로젝트 배경
-#### 1.1. 국내외 시장 현황 및 문제점
-> 시장 조사 및 기존 문제점 서술
+- DDS Security+[[8]](#ref8)와의 차별점: 선행 연구인 DDS Security+는 TPM[[9]](#ref9) 하드웨어에 의존하지만, 본 연구는 TPM이 없는 자원 제약적 MCU 환경을 대상으로 합니다.
 
-#### 1.2. 필요성과 기대효과
-> 왜 이 프로젝트가 필요한지, 기대되는 효과 등
+- SMART[[10]](#ref10)와의 차별점: SMART는 하드웨어 변경을 일부 요구하지만 본 연구는 기존 하드웨어의 MPU, TrustZone-M과 같은 기능을 최대한 활용하고 Micro-ROS 통신 프로토콜에 직접 보안 계층을 통합하여 실용성을 높였습니다.
 
-### 2. 개발 목표
-#### 2.1. 목표 및 세부 내용
-> 전체적인 개발 목표, 주요 기능 및 기획 내용
+### 2.3. 사회적 가치 도입 계획 
+제조업, 유통, 의료 등 다양한 산업 분야에서 활용되는 로봇 시스템의 보안을 강화함으로써 악의적인 공격으로 인한 시스템 오작동 및 중단을 방지하고 로봇으로 인해 발생할 수 있는 물리적, 인명 피해를 예방하여 공공의 안전에 기여할 수 있습니다.
 
-#### 2.2. 기존 서비스 대비 차별성 
-> 유사 서비스 비교 및 차별점 부각
+## 3. 시스템 설계
+### 3.1. 시스템 구성도
+시스템은 크게 세 부분으로 구성됩니다.
+- 일반 PC/SBC: ROS 2 DDS 미들웨어가 동작하는 환경입니다.
+- Micro ROS Agent: PC와 MCU 보드 사이에서 통신을 중개하는 XRCE-DDS 에이전트입니다.
+- MCU 보드: FreeRTOS 또는 Zephyr와 같은 RTOS 위에서 Micro-ROS 노드가 실행되는 임베디드 장치입니다.
 
-#### 2.3. 사회적 가치 도입 계획 
-> 프로젝트의 공공성, 지속 가능성, 환경 보호 등
-### 3. 시스템 설계
-#### 3.1. 시스템 구성도
-> 이미지 혹은 텍스트로 시스템 아키텍쳐 작성
->
 #### 3.2. 사용 기술
-> 프론트엔드, 백엔드, API 등 구체 기술 스택
+- 하드웨어
+  - ST Nucleo-L552ZE-Q[[11]](#ref11) (Arm Cortex-M33, MPU 및 TrustZone-M 지원) 
+- 운영체제
+  - Zephyr RTOS[[12]](#ref12)
+- 통신 미들웨어
+  - Micro-ROS
+  - Micro XRCE-DDS 
+- 보안 기술
+  - DICE (Device Identifier Composition Engine): 경량 신뢰 루트 프레임워크 
+  - MPU (Memory Protection Unit): 하드웨어 메모리 접근 제어 기능 
+  - TF-M (TrustedFirmware-M): Armv8-M을 위한 오픈소스 보안 펌웨어 
+  - TZ-M (TrustZone-M): 하드웨어 수준의 보안 격리 기술 
+- 개발 환경
+  - Ubuntu 22.04 LTS
+  - Python 3.10.12
+  - Zephyr-SDK 0.17.0
 
-### 4. 개발 결과
-#### 4.1. 전체 시스템 흐름도
+## 4. 개발 결과
+### 4.1. 전체 시스템 흐름도
 > 기능 흐름 설명 및 도식화 가능
 >
-#### 4.2. 기능 설명 및 주요 기능 명세서
-> 주요 기능에 대한 상세 설명, 각 기능의 입력/출력 및 설명
->
-#### 4.3. 디렉토리 구조
->
-#### 4.4. 산업체 멘토링 의견 및 반영 사항
-> 멘토 피드백과 적용한 사례 정리
 
-### 5. 설치 및 실행 방법
+### 4.2. 기능 설명 및 주요 기능 명세서
+[DICE 문서 참고](docs/04.명세/uROS-RA-졸업과제-명세_DICE.pdf)<br>
+[MPU 문서 참고](docs/04.명세/uROS-RA-졸업과제-명세_MPU.pdf)<br>
+[TFM 문서 참고](docs/04.명세/uROS-RA-졸업과제-명세_TFM.pdf)<br>
+[TZM 문서 참고](docs/04.명세/uROS-RA-졸업과제-명세_TZM.pdf)
+
+
+### 4.3. 디렉토리 구조
+3가지 구현을 각 branch로 나누어 구성
+- Micro-XRCE-DDS-Agent[[13]](#ref13)
+  - 해당 폴더는 Micro-XRCE-DDS에서 사용하는 Agent 폴더이며 Micro-ROS에서 Agent 빌드 시 다운받아 사용하는 코드
+  - [별도의 github 주소](https://github.com/tmdals010126/Micro-XRCE-DDS-Agent)로 구성되어 있음.
+  - `src/cpp`에 소스코드가 존재
+- Micro-ROS-Zephyr-TFM[[12]](#ref12)[[14]](#ref14)
+  - Micro-ROS 모듈이 포함된 zephyr rtos가 구현되어있는 폴더로 firmware build 및 구성이 해당 폴더의 코드로 이루어짐
+  - `micro_ros_dice` / `micro_ros_tfm` 폴더에 각 프로젝트가 존재
+- Micro-ROS-Zephyr[[15]](#ref15)
+  - Micro-ROS가 지원하는 개발 환경 폴더
+  - 별도로 firmware를 build 할 수 있으나 모듈지원이 미미하여 해당 프로젝트에서는 firmware를 build하는데 사용하지 않음
+  - 해당 프로젝트에서는 Agent를 build하고 사용하는데 사용됨
+  - `src/uros/micro-ROS-Agent/micro_ros_agent` 폴더에 Agent 구현이 존재하며 `cmake/SuperBuild.cmake` 파일의 설정에 따라 `Micro-XRCE-DDS-Agent`를 다운받고 build함
+
+
+### 4.4. 산업체 멘토링 의견 및 반영 사항
+- 서버와 클라이언트 간 신뢰 기준(키)에 대한 설명 추가
+  - DICE의 경우 UDS사용
+  - TFM의 경우 빌드 시점에서 개인키 사용 및 토큰 검증시 사용
+- Ethernet과 Serial 통신 경로에 대해 명확히 기술
+  - 이번 과제에서는 Serial 통신을 기준으로 실험을 진행 
+  - Ethernet을 사용하기 위해서는 별도의 모듈이 필요하기에 추가하지 않음
+
+## 5. 설치 및 실행 방법
 >
-#### 5.1. 설치절차 및 실행 방법
+### 5.1. 설치절차 및 실행 방법
 > 설치 명령어 및 준비 사항, 실행 명령어, 포트 정보 등
-#### 5.2. 오류 발생 시 해결 방법
+### 5.2. 오류 발생 시 해결 방법
 > 선택 사항, 자주 발생하는 오류 및 해결책 등
 
-### 6. 소개 자료 및 시연 영상
-#### 6.1. 프로젝트 소개 자료
+## 6. 소개 자료 및 시연 영상
+### 6.1. 프로젝트 소개 자료
 > PPT 등
-#### 6.2. 시연 영상
+### 6.2. 시연 영상
 > 영상 링크 또는 주요 장면 설명
 
-### 7. 팀 구성
-#### 7.1. 팀원별 소개 및 역할 분담
->
-#### 7.2. 팀원 별 참여 후기
-> 개별적으로 느낀 점, 협업, 기술적 어려움 극복 사례 등
+## 7. 팀 구성
+### 7.1. 팀원별 소개 및 역할 분담
 
-### 8. 참고 문헌 및 출처
+<div>
 
-```
+| <img src="https://avatars.githubusercontent.com/u/26674692?v=4" width="200px;" style="border-radius: 50%;" alt="강승민"/> | <img src="https://avatars.githubusercontent.com/u/69492855?v=4" width="200px;" style="border-radius: 50%;" alt="김의준"/> | <img src="https://avatars.githubusercontent.com/u/73125851?v=4" width="200px;" style="border-radius: 50%;" alt="박재선"/> |
+| :------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| [**강승민**](https://github.com/tmdals010126)                               | [**김의준**](https://github.com/yeedwig)                               | [**박재선**](https://github.com/sunnypark87)                               |
+| [**자기 소개**](https://veiled-lemming-857.notion.site/PROFILE-school-27831b4ff88480228fd9fb305a183d32?source=copy_link)                               | [**자기 소개**](https://time-walker-f84.notion.site/278b82d83c39800bbfb5c823cb8ce214?source=copy_link)                               | [**자기 소개**](https://feline-bite-26f.notion.site/278a868e440080a293cbd0bf18e92ec9)                               |
+| - Agent side 검증 코드 개발 <br> - TrustedFirmware-M 사용 코드 개발 <br> - zephyr 코드 통합 및 실험 진행 | - zephyr 코드 이식 <br> - 성능 실험 결과 분석 <br> | DICE 기능 개발 <br> - MPU 제어 기능 개발 <br>|
 
-## 5. README.md 작성팁 
-* 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.  
-* 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
+</div>
 
-### 5.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-<br />
+### 7.2. 팀원 별 참여 후기
+<div>
 
-### 5.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
+| [강승민](https://github.com/tmdals010126) | [김의준](https://github.com/yeedwig)    | [박재선](https://github.com/sunnypark87) |
+|:----------------------------------------:|:------------------------------------------:|:----------------------------------:|
+| "이번 연구를 진행하며 임베디드 보안의 다양한 아키텍쳐를 이해하는 시간이 되어 매우 유익했던것 같습니다. 보안기능을 다루는 과제였기에 개발과 디버깅에 다소 어려움이 존재했지만 이를 극복하여 원하는 기능을 모두 구현하여 재밌는 경험이였습니다." | "이번 과제를 통해 임베디드 보안 전반에 대한 이해를 넓힐 수 있었고, 실제 구현에 도전하며 새로운 경험을 통해 배울 수 있었습니다." | "생소했던 임베디드 소프트웨어를 다루면서 어려움이 많았지만 하나씩 공부해가는 즐거움을 느낄 수 있었습니다. 그리고 보안의 중요성에 대해 다시 한 번 생각해볼 수 있는 기회였습니다." |
 
-### 5.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
+</div>
 
-* **Unordered List**
-```
-* 하나
-  * 둘
+## 8. 참고 문헌 및 출처
+[1] <a name="ref1"></a>B. Dieber, B. Breiling, S. Taurer, S. Kacianka, S. Rass, and P. Schartner, "Security for the robot operating system," *Robotics and Autonomous Systems*, Vol. 98, pp. 192-203, Dec. 2017.
 
-+ 하나
-  + 둘
+[2] <a name="ref2"></a>The micro-ROS Consortium, "[micro-ROS](https://micro.ros.org/)," 2024. [Online]. Available: https://micro.ros.org/. [Accessed: Sep. 17, 2025].
 
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
+[3] <a name="ref3"></a>Open Robotics, "[ROS 2 Documentation](https://docs.ros.org/)," 2025. [Online]. Available: https://docs.ros.org/. [Accessed: Sep. 17, 2025].
 
-+ 하나
-  + 둘
+[4] <a name="ref4"></a>Trusted Computing Group (TCG), "Device Identifier Composition Engine (DICE) Architectures," Revision 1.0, Aug. 2017.
 
-- 하나
-  - 둘
-<br />
+[5] <a name="ref5"></a>Arm Limited, "[Arm Cortex-M33 Processor Technical Reference Manual - Memory Protection Unit](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-peripherals/security-attribution-and-memory-protection/memory-protection-unit)," 2020.
 
-### 5.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
+[6] <a name="ref6"></a>Arm Limited, "[Trusted Firmware-M](https://www.trustedfirmware.org/projects/tf-m/)," 2024.
 
-단어 주석 "`" 이용
-"`Hello world`"
+[7] <a name="ref7"></a>Arm Limited, "[TrustZone technology for Armv8-M Architecture](https://developer.arm.com/documentation/100690/0200/ARM-TrustZone-technology)," 2018.
 
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
+[8] <a name="ref8"></a>P. G. Wagner, P. Birnstill, and J. Beyerer, "Dds security+: Enhancing the data distribution service with tpm-based remote attestation," in *Proc. 19th Int. Conf. Availab., Reliab. Secur.*, 2024, pp. 1-11.
 
-### 5.5. 링크 Link
-```
-[Title](link)
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
+[9] <a name="ref9"></a>Trusted Computing Group and Microsoft, "[Official TPM 2.0 Reference Implementation](https://github.com/TrustedComputingGroup/TPM)," 2024.
 
-<link>
-<https://cse.pusan.ac.kr/cse/index..do>
-``` 
-[부산대학교 정보컴퓨터공학부](https://cse.pusan.ac.kr/cse/index..do)
+[10] <a name="ref10"></a>K. Eldefrawy, et al., "Smart: secure and minimal architecture for (establishing dynamic) root of trust," in *Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS)*, 2012, pp. 1-15.
 
-<https://cse.pusan.ac.kr/cse/index..do>
-<br />
+[11] <a name="ref11"></a>STMicroelectronics, "[NUCLEO-L552ZE-Q](https://www.st.com/en/evaluation-tools/nucleo-l552ze-q.html)," 2021.
 
-### 5.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
+[12] <a name="ref12"></a>The Zephyr Project, "[The Zephyr Project](https://www.zephyrproject.org/)," 2025. [Online]. Available: https://www.zephyrproject.org/. [Accessed: Sep. 17, 2025].
 
-### 5.7. 이미지 Image
-```
-<img src="image URL" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](image URL "Optional title")
-```
-- 웹에서 작성한다면 README.md 내용 안으로 이미지를 드래그 앤 드롭하면 이미지가 생성됩니다.
-- 웹이 아닌 로컬에서 작성한다면, github issue에 이미지를 드래그 앤 드롭하여 image url 을 얻을 수 있습니다. (URL만 복사하고 issue는 제출 안 함.)
-  <img src="https://github.com/user-attachments/assets/0fe3bff1-7a2b-4df3-b230-cac4ef5f6d0b" alt="이슈에 image 올림" width="600" />
-  <img src="https://github.com/user-attachments/assets/251c6d42-b36b-4ad4-9cfa-fa2cc67a9a50" alt="image url 복사" width="600" />
+[13] <a name="ref13"></a>eProsima, "[Micro-XRCE-DDS-Agent](https://github.com/eProsima/Micro-XRCE-DDS-Agent)," 2024.
 
+[14] <a name="ref14"></a>micro-ROS, "[micro_ros_zephyr_module](https://github.com/micro-ROS/micro_ros_zephyr_module)," 2024.
 
-### 5.8. 유튜브 영상 추가
-```markdown
-[![영상 이름](유튜브 영상 썸네일 URL)](유튜브 영상 URL)
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-
-- 이때 유튜브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있습니다.
-
-- `Youtube URL`: https://www.youtube.com/watch?v={동영상 ID}
-- `Youtube Thumbnail URL`: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
-- 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
-
+[15] <a name="ref15"></a>micro-ROS, "[micro_ros_setup](https://github.com/micro-ROS/micro_ros_setup)," 2024.
