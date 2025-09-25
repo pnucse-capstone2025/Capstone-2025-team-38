@@ -69,7 +69,7 @@ Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 �
 #### 4.1.1. DICE 구현
 <a name="figure2"></a>
 ![DICE 흐름도 이미지](img/fig2.png)
-[Figure 2](#figure2)와 같이 Nucleo-L552ZE-Q 보드에서 접속시도 패킷을 전송하면 Agent에서 Nonce 값 생성 후 전송한다.
+[Figure 2](#figure2)와 같이 Nucleo-L552ZE-Q 보드에서 접속시도 패킷을 전송하면 Agent에서 Nonce 값을 생성한 후 전송한다.
 이후 Board 측에서 수신한 Nonce를 가지고 DICE CDI를 생성한 후 전송한다. 사전에 화이트리스트로 저장된 펌웨어 hash를 바탕으로 Agent에서 똑같은 연산을 진행하고 이를 비교하여 세션 생성 여부를 결정한다.
 
 #### 4.1.2. DICE+MPU 구현
