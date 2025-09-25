@@ -2,14 +2,14 @@
 ## 1. 연구 배경
 ### 1.1. 사전 조사
 <a name="figure1"></a>
-![사장조사 이미지](img/img1.png)
+![사장조사 이미지](img/fig1.png)
 
 최근 사물 인터넷(IoT)과 로봇 기술의 발전으로 MCU(Micro Controller Unit)는 단순 제어를 넘어 자율주행, 스마트 팩토리 등 복잡하고 중요한 역할을 수행하게 되었습니다. 이러한 역할 확대에 힘입어 MCU 시장은 [Figure 1](#figure1)과 같이 지속적인 성장이 전망됩니다. MCU는 센서 데이터 수집, 통신 등 시스템의 핵심 기능을 담당하지만 크기와 전력 소비를 최소화하기 위해 연산 능력과 메모리가 제한적이라는 특징을 가집니다. 이로 인해 일반 컴퓨팅 환경의 복잡한 보안 프로토콜을 적용하기 어려워 악의적인 공격에 취약합니다. 만약 MCU의 소프트웨어가 변조될 경우 시스템 오작동을 넘어 물리적 파손이나 심각한 인명 피해로 이어질 수 있어 자원 제약 환경에 최적화된 경량 무결성 검증 기술 확보가 필수적입니다[[1]](#ref1).
 
 ### 1.2. 기존의 문제점
 - Micro-ROS[[2]](#ref2) 및 ROS2[[3]](#ref3)의 보안 기능 미흡: 경량화에 초점을 맞춘 Micro-ROS는 인증, 암호화 같은 보안 기능이 충분히 구현되어 있지 않으며 저사양 MCU에서는 추가적인 자원 요구로 인해 보안 기능 구현 자체가 어렵습니다. 또한 하나의 노드가 탈취되면 연결된 모든 기기가 위험에 노출되는 구조적 한계를 가집니다.
 
-- 기존 원격 증명 기술의 한계: TPM(Trusted Platform Module)과 같은 전통적인 원격 증명 기술은 고성능 CPU와 전용 보안 칩이 필요해 MCU 환경에 적용하기 어렵습니다. 또한 ARMv8-M 아키텍처에 최적화된 TF-M 같은 기술은 대다수의 저사양 MCU에서 지원하지 않아 범용성이 떨어집니다.
+- 기존 원격 증명 기술의 한계: TPM(Trusted Platform Module)[[4]](#ref4)과 같은 전통적인 원격 증명 기술은 고성능 CPU와 전용 보안 칩이 필요해 MCU 환경에 적용하기 어렵습니다. 또한 ARMv8-M 아키텍처에 최적화된 TF-M 같은 기술은 대다수의 저사양 MCU에서 지원하지 않아 범용성이 떨어집니다.
 
 - 통신 보안의 부재: Micro-ROS의 핵심 통신 프로토콜인 DDS는 보안 기능이 기본적으로 미비하여 중간자(Man-in-the-Middle) 공격이나 Replay 공격에 쉽게 노출됩니다.
 
@@ -22,17 +22,17 @@
 ## 2. 개발 목표
 ### 2.1. 목표 및 세부 내용
 Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 부팅 시점의 원격 증명 기술을 통합하여 안전한 보안 구조를 구현하는것이 목표이며 다음과 같은 3가지 Root of Trust 기반 보안 구조 설계 및 구현을 진행합니다.
-- **DICE (Device Identifier Composition Engine)**[[4]](#ref4) 단독 구조
+- **DICE (Device Identifier Composition Engine)**[[5]](#ref5) 단독 구조
 
-- **DICE (Device Identifier Composition Engine)** 와 **MPU (Memory Protection Unit)**[[5]](#ref5) 를 결합한 구조
+- **DICE (Device Identifier Composition Engine)** 와 **MPU (Memory Protection Unit)**[[6]](#ref6) 를 결합한 구조
 
-- **TF-M (TrustedFirmware-M)**[[6]](#ref6) 과 **TZ-M (TrustZone-M)**[[7]](#ref7) 을 통합한 구조
+- **TF-M (TrustedFirmware-M)**[[7]](#ref7) 과 **TZ-M (TrustZone-M)**[[8]](#ref8) 을 통합한 구조
 
 추가적으로 기본 Micro-ROS와 구현한 3가지 구조의 통신 시간, board cycle, firmware size를 종합적으로 비교하여 자원이 제한된 MCU 시스템에서 원격 증명 기술이 실질적으로 동작하며 효과적임을 증명합니다.
 
 ### 2.2. 기존 서비스 대비 차별성 
 
-- DDS Security+[[8]](#ref8)와의 차별점: 선행 연구인 DDS Security+는 TPM[[9]](#ref9) 하드웨어에 의존하지만, 본 연구는 TPM이 없는 자원 제약적 MCU 환경을 대상으로 합니다.
+- DDS Security+[[9]](#ref9)와의 차별점: 선행 연구인 DDS Security+는 TPM 하드웨어에 의존하지만, 본 연구는 TPM이 없는 자원 제약적 MCU 환경을 대상으로 합니다.
 
 - SMART[[10]](#ref10)와의 차별점: SMART는 하드웨어 변경을 일부 요구하지만 본 연구는 기존 하드웨어의 MPU, TrustZone-M과 같은 기능을 최대한 활용하고 Micro-ROS 통신 프로토콜에 직접 보안 계층을 통합하여 실용성을 높였습니다.
 
@@ -66,8 +66,23 @@ Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 �
 
 ## 4. 개발 결과
 ### 4.1. 전체 시스템 흐름도
-> 기능 흐름 설명 및 도식화 가능
->
+#### 4.1.1. DICE 구현
+<a name="figure2"></a>
+![DICE 흐름도 이미지](img/fig2.png)
+[Figure 2](#figure2)와 같이 Nucleo-L552ZE-Q 보드에서 접속시도 패킷을 전송하면 Agent에서 Nonce 값 생성 후 전송한다.
+이후 Board 측에서 수신한 Nonce를 가지고 DICE CDI를 생성 후 전송한다. 사전에 화이트리스트로 저장된 펌웨어 hash를 바탕으로 Agent에서 똑같은 연산을 진행하고 이를 비교하여 세션 생성 여부를 결정한다.
+
+#### 4.1.2. DICE+MPU 구현
+<a name="figure3"></a>
+![DICE+MPU 흐름도 이미지](img/fig3.png)
+[Figure 3](#figure3)는 DICE와 거의 유사한 과정을 가진다. 하지만 MPU를 사용하여 어플리케이션의 코드는 unprivileged 권한으로 동작하여 정해진 메모리 범위 외에 접근시에 fault를 발생시켜 메모리 영역 보호 강화한다.
+DICE CDI를 생성할 시엔 flash 영역 hashing을 진행하기에 custom SVC를 정의하여 privileged 권한으로 동작하도록 설정한다.
+
+#### 4.1.3. TFM+TZM 구현
+<a name="figure4"></a>
+![TFM+TZM 흐름도 이미지](img/fig4.png)
+[figure 4](#figure4)는 위 두 구현과 다르게 TFM기반 Root of Trust를 구현하고 이를 바탕으로 Non-Secure world에서 Agent로 접속을 시도한다. Agent에서는 Nonce를 생성하여 전송하고 Board에서는 수신한 Nonce를 바탕으로한 PSA IAT를 발급한다. PSA IAT는 Secure world에서 발급되어 하드웨어 바탕 격리가 되어있다. 이를 호출하기 위해서는 전용 handler를 사용하여 호출하고 반환 받는다. 이를 Agent로 전송하면 Agent는 이를 저장하고 firmware를 build할때 사용한 비밀키를 사용하여 검증한다. 이 검증과정은 python의 의존성이 너무 강하여 내부적으로 python을 별도로 실행하여 검증결과를 반환받고 세션 생성 여부를 결정한다.
+
 
 ### 4.2. 기능 설명 및 주요 기능 명세서
 [DICE 문서 참고](docs/04.명세/uROS-RA-졸업과제-명세_DICE.pdf)<br>
@@ -101,11 +116,58 @@ Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 �
   - Ethernet을 사용하기 위해서는 별도의 모듈이 필요하기에 추가하지 않음
 
 ## 5. 설치 및 실행 방법
->
+
 ### 5.1. 설치절차 및 실행 방법
-> 설치 명령어 및 준비 사항, 실행 명령어, 포트 정보 등
+#### 5.1.1. zephyr 설치 (Client)
+각 구현에 따른 branch에 맞춰 사용
+공통
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install --no-install-recommends git cmake ninja-build gperf \
+  ccache dfu-util device-tree-compiler wget python3-dev python3-venv python3-tk \
+  xz-utils file make gcc gcc-multilib g++-multilib libsdl2-dev libmagic1
+```
+```bash
+cd zephyrproject/zephyr
+source ../.venv/bin/activate
+```
+DICE
+```bash
+west build -p always -b nucleo_l552ze_q micro_ros_dice
+west flash
+```
+DICE+MPU
+```bash
+west build -p always -b nucleo_l552ze_q micro_ros_dice
+west flash
+```
+TFM+TFM
+```bash
+west build -p always -b nucleo_l552ze_q_ns micro_ros_tfm
+west flash
+```
+#### 5.1.2. Agent
+- [ros2 humble](https://docs.ros.org/en/humble/Installation.html) 설치 필요<br>
+ros2 설치폴더 예시 `source ~/ros2_humble/install/local_setup.zsh`
+```bash
+source <ros2_humble 설치 폴더>/install/local_setup.zsh
+
+cd uros
+./rebuild_agent.sh
+source install/local_setup.zsh
+ros2 run micro_ros_agent micro_ros_agent serial -b 115200 \
+--dev /dev/serial/by-id/<uart serial 장치> -v6
+```
+- uart serial 장치 예시 `/dev/serial/by-id/usb-STMicroelectronics_STM32_STLink_066EFF555187534867211812-if02`
+
 ### 5.2. 오류 발생 시 해결 방법
-> 선택 사항, 자주 발생하는 오류 및 해결책 등
+- board 사용시 TFM을 사용하게된다면 메모리맵이 보호되기에 다른 펌웨어를 사용하기 힘들다.
+- TFM을 사용하게된다면 다음과 같은 명령어를 사용하여 보드를 초기화하여 다른 펌웨어를 사용가능하다. 사용하기 위해서는 STM32_Programmer_CLI 설치가 필요하다.
+  ```bash
+  STM32_Programmer_CLI -c port=SWD mode=UR -e all
+  ```
+
 
 ## 6. 소개 자료 및 시연 영상
 ### 6.1. 프로젝트 소개 자료
@@ -142,17 +204,17 @@ Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 �
 
 [3] <a name="ref3"></a>Open Robotics, "[ROS 2 Documentation](https://docs.ros.org/)," 2025. [Online]. Available: https://docs.ros.org/. [Accessed: Sep. 17, 2025].
 
-[4] <a name="ref4"></a>Trusted Computing Group (TCG), "Device Identifier Composition Engine (DICE) Architectures," Revision 1.0, Aug. 2017.
+[4] <a name="ref4"></a>Trusted Computing Group and Microsoft, "[Official TPM 2.0 Reference Implementation](https://github.com/TrustedComputingGroup/TPM)," 2024.
 
-[5] <a name="ref5"></a>Arm Limited, "[Arm Cortex-M33 Processor Technical Reference Manual - Memory Protection Unit](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-peripherals/security-attribution-and-memory-protection/memory-protection-unit)," 2020.
+[5] <a name="ref5"></a>Trusted Computing Group (TCG), "Device Identifier Composition Engine (DICE) Architectures," Revision 1.0, Aug. 2017.
 
-[6] <a name="ref6"></a>Arm Limited, "[Trusted Firmware-M](https://www.trustedfirmware.org/projects/tf-m/)," 2024.
+[6] <a name="ref6"></a>Arm Limited, "[Arm Cortex-M33 Processor Technical Reference Manual - Memory Protection Unit](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-peripherals/security-attribution-and-memory-protection/memory-protection-unit)," 2020.
 
-[7] <a name="ref7"></a>Arm Limited, "[TrustZone technology for Armv8-M Architecture](https://developer.arm.com/documentation/100690/0200/ARM-TrustZone-technology)," 2018.
+[7] <a name="ref7"></a>Arm Limited, "[Trusted Firmware-M](https://www.trustedfirmware.org/projects/tf-m/)," 2024.
 
-[8] <a name="ref8"></a>P. G. Wagner, P. Birnstill, and J. Beyerer, "Dds security+: Enhancing the data distribution service with tpm-based remote attestation," in *Proc. 19th Int. Conf. Availab., Reliab. Secur.*, 2024, pp. 1-11.
+[8] <a name="ref8"></a>Arm Limited, "[TrustZone technology for Armv8-M Architecture](https://developer.arm.com/documentation/100690/0200/ARM-TrustZone-technology)," 2018.
 
-[9] <a name="ref9"></a>Trusted Computing Group and Microsoft, "[Official TPM 2.0 Reference Implementation](https://github.com/TrustedComputingGroup/TPM)," 2024.
+[9] <a name="ref9"></a>P. G. Wagner, P. Birnstill, and J. Beyerer, "Dds security+: Enhancing the data distribution service with tpm-based remote attestation," in *Proc. 19th Int. Conf. Availab., Reliab. Secur.*, 2024, pp. 1-11.
 
 [10] <a name="ref10"></a>K. Eldefrawy, et al., "Smart: secure and minimal architecture for (establishing dynamic) root of trust," in *Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS)*, 2012, pp. 1-15.
 
