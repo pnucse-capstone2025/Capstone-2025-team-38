@@ -1,0 +1,60 @@
+Flexible Software Package (FSP)
+###############################
+
+Origin:
+   Renesas Electronics Corporation
+   https://www.renesas.com/us/en/software-tool/flexible-software-package-fsp
+
+Status:
+   version v5.3.0
+
+Purpose:
+   Flexible Software Package (FSP) for Renesas RA MCU Family.
+
+Description:
+   This package is a snapshot from the RA FSP software released by Renesas Electronics Corporation
+   It contain the HAL and a set of CMSIS headers files for the Renesas RA MCUs
+
+Dependencies:
+    None.
+
+URL:
+   https://github.com/renesas/fsp
+
+Commit:
+   efbaffe35891cee328843ff543a2f6ad0a86077b
+
+Maintained-by:
+   Renesas Electronics Corporation
+
+License:
+   BSD-3-Clause
+
+License Link:
+   https://opensource.org/licenses/BSD-3-Clause
+
+Patch List:
+
+   * Remove the DTC setting override in SCI B UART
+   Impacted files:
+      drivers/ra/fsp/src/r_sci_b_uart/r_sci_b_uart.c
+
+   * Remove the DTC setting override in SCI UART
+   Impacted files:
+      drivers/ra/fsp/src/r_sci_uart/r_sci_uart.c
+
+   * Add bug fix for CANFD setting wrong value of acepptance filtering rule number
+   Impacted files:
+      drivers/ra/fsp/src/r_canfd/r_canfd.c
+
+   * Remove the static definition in FLASH HP
+   Impacted files:
+      drivers/ra/fsp/src/r_flash_hp/r_flash_hp.c
+
+   * Allows custom implementation of option setting memory
+   Impacted files:
+      drivers/ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+
+   * Move the include for cmsis_compiler.h after include for Renesas CMSIS header file
+   Impacted files:
+      drivers/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h
