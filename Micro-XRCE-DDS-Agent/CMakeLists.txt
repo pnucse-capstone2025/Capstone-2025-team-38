@@ -153,8 +153,6 @@ foreach(d ${_deps})
     find_package(${_name} ${_version} REQUIRED)
 endforeach()
 
-find_package(Python3 COMPONENTS Development REQUIRED)
-
 ###############################################################################
 # Sources
 ###############################################################################
@@ -222,7 +220,10 @@ set(SRCS
     $<$<BOOL:${UAGENT_P2P_PROFILE}>:src/cpp/transport/p2p/AgentDiscoverer.cpp>
     $<$<BOOL:${UAGENT_P2P_PROFILE}>:src/cpp/p2p/InternalClientManager.cpp>
     $<$<BOOL:${UAGENT_P2P_PROFILE}>:src/cpp/p2p/InternalClient.cpp>
-    src/iat-wrapper/iat_wrapper.c
+    src/dice/dice.c
+    src/dice/utils.c
+    src/dice/ops.c
+    src/dice/clear_memory.c
     )
 
 file(GLOB_RECURSE MBEDTLS_SRCS "src/mbedtls/*.c")
@@ -310,7 +311,6 @@ target_link_libraries(${PROJECT_NAME}
         $<$<BOOL:${UAGENT_P2P_PROFILE}>:microxrcedds_client>
         $<$<BOOL:${UAGENT_P2P_PROFILE}>:microcdr>
         $<$<PLATFORM_ID:Linux>:pthread>
-        ${Python3_LIBRARIES}
     )
 
 target_include_directories(${PROJECT_NAME} BEFORE
@@ -320,7 +320,6 @@ target_include_directories(${PROJECT_NAME} BEFORE
         $<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>
         $<TARGET_PROPERTY:fastcdr,INTERFACE_INCLUDE_DIRECTORIES>
     PRIVATE
-        ${Python3_INCLUDE_DIRS}
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include/mbedtls>
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include/psa>

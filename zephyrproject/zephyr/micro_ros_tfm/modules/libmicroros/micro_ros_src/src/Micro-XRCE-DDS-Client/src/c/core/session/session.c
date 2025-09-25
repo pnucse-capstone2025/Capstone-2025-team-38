@@ -648,10 +648,6 @@ void uxr_flash_output_streams(
 
 //=============================== PSA IAT START ===================================
 
-extern uint64_t start_time;
-extern uint64_t end_time;
-extern uint64_t duration;
-
 void uxr_flash_output_streams_with_token(
     uxrSession* session)
 {
@@ -717,13 +713,6 @@ void uxr_flash_output_streams_with_token(
                 buffer[length + iat_sz + 3] = iat_sz >> 24;
             }
             send_message(session, buffer, length + iat_sz + sizeof(uint32_t));
-
-            // end_time = k_cycle_get_64();
-            // duration = end_time - start_time;
-            // for(int i = 0; i < 10; i++){
-            //     printf("uxr_flash_output_streams_with_token time: %llu us\n", duration);
-            //     k_sleep(K_SECONDS(1));
-            // }
         }
         UXR_UNLOCK_STREAM_ID(session, id);
     }

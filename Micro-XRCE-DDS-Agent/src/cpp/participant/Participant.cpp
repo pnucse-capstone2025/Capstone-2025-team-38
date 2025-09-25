@@ -20,11 +20,13 @@
 extern "C" {
 #endif
 
-#include <iat/iat_wrapper.h>
+#include <dice/dice.h>
+#include <dice/ops.h>
 
 #ifdef __cplusplus
 }
 #endif
+
 
 #include <chrono>
 
@@ -35,6 +37,9 @@ extern std::chrono::high_resolution_clock::time_point endTime_1;
 extern std::chrono::high_resolution_clock::time_point endTime_2;
 extern std::chrono::high_resolution_clock::time_point endTime_3;
 
+
+
+extern uint8_t device_token[256];
 extern uint32_t nonce;
 namespace eprosima {
 namespace uxr {
@@ -96,37 +101,78 @@ std::unique_ptr<Participant> Participant::create(
             // printf("  user_data 크기: %zu\n", participant_xrce.user_data().size());
  
             //////////////////////////////////////////////////////////////////////////////////////////
-            //////////              IAT Main Flow Start              ////////////////////////////////
-            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////              DICE Main Flow Start              ////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////
 
             // endTime_2 = std::chrono::high_resolution_clock::now();
             // auto duration = endTime_2 - startTime_2;
-            // std::cout << "Nonce to IAT duration: " << std::chrono::duration_cast<std::chrono::microseconds>(duration).count() << " microseconds" << std::endl;
+            // std::cout << "Nonce to DICE duration: " << std::chrono::duration_cast<std::chrono::microseconds>(duration).count() << " microseconds" << std::endl;
             // startTime_3 = std::chrono::high_resolution_clock::now();
+            
+            DiceResult result;
+            uint8_t cdi_buffer[DICE_CDI_SIZE] = {0,};
+            uint8_t cert_buffer[2048];
+            size_t cert_size;
+            
+            // dice with mpu
+            // uint8_t device_hash[DICE_HASH_SIZE] = {0xb0,0xfb,0x82,0x63,0x24,0x3e,0xd2,0xb7,0x31,0xc0,0xcd,0x6f,0x2c,0xa5,0x2a,0x0d,0xb1,0x59,0x6b,0x68,0x23,0xf9,0x45,0x2d,0x3f,0x5d,0x91,0x72,0xa8,0x2a,0x53,0xfe};
 
-            int iat_attest_return = 0;
-
-            char *custom_argv[] = {
-                "main_executable",
-                "-t",
-                "PSA-IoT-Profile1-token",
-                "-k",
-                "iat/tfm_initial_attestation_key.pem",
-                "iat/attestation_token.dat"
-            };
-            int custom_argc = sizeof(custom_argv) / sizeof(char *);
-        
-            iat_attest_return = run_check_iat(custom_argc, custom_argv);
+            // dice
+            uint8_t device_hash[DICE_HASH_SIZE] = {0x00,0xa0,0x99,0x81,0x6c,0xb8,0x32,0x98,0x9e,0x3b,0xb1,0x49,0x6b,0x24,0x63,0xf1,0x63,0xed,0x7a,0x3c,0x7d,0xec,0x03,0x10,0xe4,0xc9,0xb5,0x86,0x78,0x5b,0x35,0xc1};
+            // uint8_t device_hash[DICE_HASH_SIZE] = {0x09,0x72,0x70,0x94,0x92,0xe1,0xd2,0x6a,0x85,0xc2,0x39,0x74,0x03,0xb6,0xdd,0xdf,0xcb,0xc9,0xf1,0x55,0xbc,0x3a,0x06,0xbd,0x8b,0x1e,0xc5,0x66,0x42,0x1b,0xed,0xac};
 
 
-            //////////////////////////////////////////////////////////////////////////////////////////
-            //////////              IAT Main Flow End                ////////////////////////////////
-            //////////////////////////////////////////////////////////////////////////////////////////
-
-            if(iat_attest_return)
+            uint8_t nonce_buffer[DICE_CDI_SIZE] = {0,};
+            for (int i = 0; i < DICE_CDI_SIZE; i++)
             {
-                printf("TF-M PSA IAT Remote Attestation Failed\n");
-                return (nullptr);
+                nonce_buffer[i] = device_hash[i] ^ ((nonce >> (8 * (i % 4))) & 0xFF);
+            }
+            
+            DiceInputValues input_values = {}; 
+            memcpy(input_values.code_hash, nonce_buffer, DICE_CDI_SIZE);
+                                               // This should be populated with actual authority, config, and code hashes.
+
+
+            // printf("nonce: %d\n", nonce);
+            result = DiceMainFlow(/*context=*/NULL, cdi_buffer, cdi_buffer,
+                                     &input_values, sizeof(cert_buffer), cert_buffer,
+                                     &cert_size, cdi_buffer, cdi_buffer);
+            // printf("cdi_attest: ");
+            // for (int i = 0; i < DICE_CDI_SIZE; i++)
+            // {
+            //     printf("%02X ", cdi_buffer[i]);
+            // }
+            // printf("\n");
+
+            // if (result == kDiceResultOk)
+            // {
+            //     printf("DiceMainFlow successfully executed.\n");
+            //     // You can now use cdi_attest and cdi_seal for attestation and sealing.
+            // }
+            // else
+            // {
+            //     printf("DiceMainFlow failed with error code: %d\n", result);
+            // }
+
+
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////              DICE Main Flow End                ////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+
+            // printf("device_token: ");
+            // for (int i = 0; i < DICE_CDI_SIZE; i++)
+            // {
+            //     printf("%02X ", device_token[i]);
+            // }
+            // printf("\n");
+
+            for (int i = 0; i < DICE_CDI_SIZE; i++)
+            {
+                if(device_token[i] != cdi_buffer[i])
+                {
+                    printf("DICE Remote Attestation Failed\n");
+                    return (nullptr);
+                }
             }
             created_entity = proxy_client->get_middleware().create_participant_by_bin(raw_object_id, participant_xrce);
             break;
@@ -142,8 +188,7 @@ std::unique_ptr<Participant> Participant::create(
 
     // endTime_3 = std::chrono::high_resolution_clock::now();
     // auto duration = endTime_3 - startTime_3;
-    // std::cout << "IAT to Session duration: " << std::chrono::duration_cast<std::chrono::microseconds>(duration).count() << " microseconds" << std::endl;
-
+    // std::cout << "DICE to Session duration: " << std::chrono::duration_cast<std::chrono::microseconds>(duration).count() << " microseconds" << std::endl;
     printf("================================================\n");
     return (created_entity ? std::unique_ptr<Participant>(new Participant(object_id, proxy_client)) : nullptr);
 }

@@ -17,9 +17,9 @@
 #include <uxr/agent/logger/Logger.hpp>
 
 #include <unistd.h>
-#include <iat/iat_wrapper.h>
+#include <dice/dice.h>
 
-
+extern uint8_t device_token[256];
 
 namespace eprosima
 {
@@ -109,44 +109,9 @@ namespace eprosima
             {
                 input_packet.message.reset(new InputMessage(buffer_, static_cast<size_t>(bytes_read)));
                 input_packet.source = SerialEndPoint(remote_addr);
+
                 rv = true;
-
-
-                //////////              IAT Recive Data Start              ////////////////////////////////
-                
-
-                uint32_t token_size = 0;
-                uint8_t iat_token[1024] = {0,};
-                memcpy(&token_size, input_packet.message->get_buf() + input_packet.message->get_len()-sizeof(uint32_t), sizeof(uint32_t));
-
-                if(input_packet.message->get_len() > token_size)
-                {
-                    // printf("token_size: %x\n", token_size);
-                    memcpy(iat_token, input_packet.message->get_buf() + input_packet.message->get_len()-token_size-sizeof(uint32_t), token_size);
-                    // printf("iat_token: ");
-                    // for(int i = 0; i < token_size; i++)
-                    // {
-                    //     printf("%02X ", iat_token[i]);
-                    // }
-                    // printf("\n");
-                    
-                    // device_token을 파일로 저장합니다.
-                    FILE *fp = fopen("iat/attestation_token.dat", "wb");
-                    if (fp != NULL)
-                    {
-                        fwrite(iat_token, 1, token_size, fp);
-                        fclose(fp);
-                    }
-                    else
-                    {
-                        printf("iat_token file open failed.\n");
-                    }
-                }
-
-                //////////              IAT Recive Data End                ////////////////////////////////
-
-
-
+                memcpy(device_token, input_packet.message->get_buf() + input_packet.message->get_len()-DICE_CDI_SIZE, DICE_CDI_SIZE);
                 uint32_t raw_client_key;
                 if (Server<SerialEndPoint>::get_client_key(input_packet.source, raw_client_key))
                 {

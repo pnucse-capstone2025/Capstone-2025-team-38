@@ -5,12 +5,12 @@ set -e
 
 echo "### Starting custom rebuild for micro_ros_agent..."
 
-rm -rf ./build
-rm -rf /install
+rm -rf /home/tmdals010126/uros_ws/build
+rm -rf /home/tmdals010126/uros_ws/install
 
 # 3. Navigate back to the workspace root
-#echo "### => Changing back to workspace root..."
-#cd /home/tmdals010126/uros_ws
+echo "### => Changing back to workspace root..."
+cd /home/tmdals010126/uros_ws
 
 # 4. Run colcon build to relink the final executable
 echo "### => Relinking the final executable (colcon build)..."

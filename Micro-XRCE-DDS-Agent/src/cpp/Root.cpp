@@ -87,8 +87,9 @@ dds::xrce::ResultStatus Root::create_client(
     {
         if (client_representation.xrce_version()[0] == dds::xrce::XRCE_VERSION_MAJOR)
         {
+            // 오버헤드 측정을 위한 타임스탬프 기록
             // startTime_1 = std::chrono::high_resolution_clock::now();
-            
+
             std::lock_guard<std::mutex> lock(mtx_);
             dds::xrce::ClientKey client_key = client_representation.client_key();
             dds::xrce::SessionId session_id = client_representation.session_id();

@@ -24,9 +24,6 @@
 #include <rmw_microros/rmw_microros.h>
 #include <microros_transports.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Aborting.\n",__LINE__,(int)temp_rc);for(;;){};}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
 
@@ -42,30 +39,8 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
 	}
 }
 
-#define DEMCR (*(volatile uint32_t *) 0xE000EDFC)
-#define DWT_CTRL (*(volatile uint32_t *) 0xE0001000)
-#define DWT_CYCCNT (*(volatile uint32_t *) 0xE0001004)
-
-typedef uint64_t uint64;
-typedef int64_t int64;
-
-void enable_dwt(){
-    if(DWT_CTRL != 0){ 
-        DEMCR |= (1 << 24);
-        DWT_CYCCNT = 0;
-        DWT_CTRL |= 1;
-    }   
-}
-
-uint64_t start_time;
-uint64_t end_time;
-uint64_t duration;
-
 int main(void)
 {
-
-	enable_dwt();
-
 	rmw_uros_set_custom_transport(
 		MICRO_ROS_FRAMING_REQUIRED,
 		(void *) &default_params,
@@ -78,27 +53,12 @@ int main(void)
 	rcl_allocator_t allocator = rcl_get_default_allocator();
 	rclc_support_t support;
 
-
-	start_time = k_cycle_get_64();
-
 	// create init_options
 	RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
 
 	// create node
 	rcl_node_t node;
 	RCCHECK(rclc_node_init_default(&node, "zephyr_int32_publisher", "", &support));
-
-	// k_sleep(K_SECONDS(10));
-
-	// end_time = k_cycle_get_64();
-	// duration = end_time - start_time;
-	// // k_sleep(K_SECONDS(10));
-
-	// for(int i = 0; i < 10; i++){
-	// 	printf("rclc_support_init time: %llu us\n", duration);
-	// 	k_sleep(K_SECONDS(1));
-	// }
-
 
 	// create publisher
 	RCCHECK(rclc_publisher_init_default(

@@ -29,13 +29,8 @@
 #include <uxr/agent/transport/endpoint/SerialEndPoint.hpp>
 #include <uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp>
 #include <uxr/agent/transport/endpoint/CustomEndPoint.hpp>
-#include <uxr/agent/utils/Conversion.hpp>
-#include <uxr/agent/logger/Logger.hpp>
-
-#include <iat/iat_wrapper.h>
 
 uint32_t nonce = 0;
-
 
 #include <chrono>
 
@@ -316,43 +311,23 @@ bool Processor<EndPoint>::process_create_client_submessage(
             status_subheader.submessage_id(dds::xrce::STATUS_AGENT);
             status_subheader.flags(dds::xrce::FLAG_LITTLE_ENDIANNESS);
             status_subheader.submessage_length(uint16_t(status_agent.getCdrSerializedSize()));
-
-            uint32_t nonce_buf[IAT_NONCE_SIZE/4] = {0,};
-            // nonce_buf에 랜덤 값을 채웁니다.
-            for (uint32_t i = 0; i < IAT_NONCE_SIZE/4; ++i)
-            {
-                nonce_buf[i] = static_cast<uint32_t>(std::rand());
-            }
+/*
+            nonce 값 전송 패킷 생성
+*/
+            
+            nonce = std::rand();
 
             // nonce = 0xFFFFFFFF; // test
 
             const size_t message_size = status_header.getCdrSerializedSize() +
                                         status_subheader.getCdrSerializedSize() +
-                                        status_agent.getCdrSerializedSize() + IAT_NONCE_SIZE;
+                                        status_agent.getCdrSerializedSize() + 4;
 
             OutputPacket<EndPoint> output_packet;
             output_packet.destination = input_packet.source;
             output_packet.message = std::shared_ptr<OutputMessage>(new OutputMessage(status_header, message_size));
-            // output_packet.message->append_raw_uint32(nonce);
-            for(int i = 0; i < IAT_NONCE_SIZE/4; i++)
-            {
-                output_packet.message->append_raw_uint32(nonce_buf[i]);
-            }
+            output_packet.message->append_raw_uint32(nonce);
             output_packet.message->append_submessage(dds::xrce::STATUS_AGENT, status_agent);
-            
-            // printf("nonce_buf: ");
-            // for(int i = 0; i < IAT_NONCE_SIZE/4; i++)
-            // {
-            //     printf("%02X ", nonce_buf[i]);
-            // }
-            // printf("\n");
-            // printf("message : ");
-            // for(int i = 0; i < output_packet.message->get_len(); i++)
-            // {
-            //     printf("%02X ", output_packet.message->get_buf()[i]);
-            // }
-            // printf("\n");
-
 
             server_.push_output_packet(std::move(output_packet));
 
@@ -360,7 +335,6 @@ bool Processor<EndPoint>::process_create_client_submessage(
             // auto duration = endTime_1 - startTime_1;
             // std::cout << "board to nonce duration: " << std::chrono::duration_cast<std::chrono::microseconds>(duration).count() << " microseconds" << std::endl;
             // startTime_2 = std::chrono::high_resolution_clock::now();
-
         }
     }
     else

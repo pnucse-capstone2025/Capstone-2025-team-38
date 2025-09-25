@@ -7,4 +7,4 @@
 /* In TF-M the default value of CRYPTO_ENGINE_BUF_SIZE is 0x2080.
  * It causes insufficient memory failure while verifying signature.
  */
-#define CRYPTO_ENGINE_BUF_SIZE 0x3000
+#define CRYPTO_ENGINE_BUF_SIZE 0x2400

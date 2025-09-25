@@ -1,0 +1,13 @@
+/*Added these lines for compability with Zephyr v2.7*/
+zephyr_udc0: &usb {
+	status = "okay";
+};
+/* End of compability part */
+
+
+&zephyr_udc0 {
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";   
+                label = "CDC_ACM_0";
+        };
+};

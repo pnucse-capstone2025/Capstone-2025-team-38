@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: iatverifier
+Version: 0.1
+Requires-Python: >=3.6
+Requires-Dist: cbor2
+Requires-Dist: cryptography
+Requires-Dist: ecdsa
+Requires-Dist: pycose==1.1.0
+Requires-Dist: pyyaml
+Requires-Dist: pyyaml-include
+Dynamic: requires-dist
+Dynamic: requires-python

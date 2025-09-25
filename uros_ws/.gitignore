@@ -56,4 +56,3 @@ firmware/build/
 
 build__//micro_ros_agent/agent/src/xrceagent
 src/uros/micro-ROS-Agent
-iat/attestation_token.dat

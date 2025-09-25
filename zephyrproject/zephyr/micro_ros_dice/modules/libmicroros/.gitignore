@@ -1,0 +1,10 @@
+micro_ros_dev/build
+micro_ros_dev/install
+micro_ros_dev/log
+micro_ros_src/build
+micro_ros_src/install
+micro_ros_src/log
+micro_ros_src/src/log
+zephyr_toolchain.cmake
+configured_colcon.meta
+*.a

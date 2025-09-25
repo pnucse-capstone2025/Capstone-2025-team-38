@@ -1,0 +1,21 @@
+{
+  "package_name": "micro_ros_msgs",
+  "output_dir": "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_typesupport_cpp/micro_ros_msgs",
+  "template_dir": "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Graph.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Node.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Entity.idl"
+  ],
+  "target_dependencies": [
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Graph.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Node.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Entity.idl"
+  ]
+}
