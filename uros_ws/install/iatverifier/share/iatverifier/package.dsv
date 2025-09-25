@@ -1,0 +1,9 @@
+source;share/iatverifier/hook/path.ps1
+source;share/iatverifier/hook/path.dsv
+source;share/iatverifier/hook/path.sh
+source;share/iatverifier/hook/pythonpath.ps1
+source;share/iatverifier/hook/pythonpath.dsv
+source;share/iatverifier/hook/pythonpath.sh
+source;share/iatverifier/hook/pythonscriptspath.ps1
+source;share/iatverifier/hook/pythonscriptspath.dsv
+source;share/iatverifier/hook/pythonscriptspath.sh

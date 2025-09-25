@@ -1,0 +1,111 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client
+gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+[  8%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj
+[  8%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj
+[ 12%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj
+[ 16%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj
+[ 20%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj
+[ 24%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj
+[ 28%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj
+[ 32%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj
+[ 36%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj
+[ 40%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj
+[ 44%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj
+[ 48%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj
+[ 52%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj
+[ 56%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj
+[ 60%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj
+[ 68%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj
+[ 64%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj
+[ 72%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj
+[ 76%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj
+[ 80%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj
+[ 88%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.obj
+[ 88%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj
+[ 92%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj
+[ 96%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj
+[100%] Linking C static library libmicroxrcedds_client.a
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+[100%] Built target microxrcedds_client
+gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+-- Install configuration: "Release"
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/libmicroxrcedds_client.a
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/defines.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/visibility.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/discovery
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/discovery/discovery.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/serial
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/custom
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/custom/custom_transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/can
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport_posix.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/transport/ip/ip.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/multithread
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/profile/multithread/multithread.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/util
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/util/ping.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/util/time.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/communication
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/communication/communication.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/type
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/type/xrce_types.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/session_info.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/reliable_stream.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/stream_id.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/seq_num.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/stream_storage.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/session.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/time_sync.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/read_access.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/create_entities_bin.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/write_access.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/create_entities_ref.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/object_id.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/create_entities_xml.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/core/session/common_create_entities.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/client.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/uxr/client/config.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake

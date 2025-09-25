@@ -1,0 +1,28 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr
+gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[ 16%] Building C object CMakeFiles/microcdr.dir/src/c/common.c.obj
+[ 33%] Building C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj
+[ 50%] Building C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj
+[ 66%] Building C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+[ 83%] Building C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj
+[100%] Linking C static library libmicrocdr.a
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[100%] Built target microcdr
+gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+-- Install configuration: "Release"
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/libmicrocdr.a
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/visibility.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/microcdr.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/config.h
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake

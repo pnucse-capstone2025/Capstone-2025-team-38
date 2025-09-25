@@ -1,0 +1,38 @@
+# Available runners configured by board.cmake.
+runners:
+- stm32cubeprogrammer
+- pyocd
+- openocd
+
+# Default flash runner if --runner is not given.
+flash-runner: pyocd
+
+# Default debug runner if --runner is not given.
+debug-runner: pyocd
+
+# Common runner configuration values.
+config:
+  board_dir: /home/tmdals010126/zephyrproject/zephyr/boards/st/nucleo_l552ze_q
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: tfm_merged.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py
+  openocd: /home/tmdals010126/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  openocd_search:
+    - /home/tmdals010126/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  stm32cubeprogrammer:
+    - --port=swd
+    - --reset-mode=hw
+  pyocd:
+    - --dt-flash=y
+    - --target=stm32l552zetxq
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image

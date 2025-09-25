@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-82d7b6ead8a6604b2fe3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rcl",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__rcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__rcl-Release-844c0f01cfdf19796859.json",
+					"name" : "ament_generate_version_header__rcl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcl-Release-762e2dfa178624907716.json",
+					"name" : "rcl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcl_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcl_uninstall-Release-c37cd6eaf7b0352f3617.json",
+					"name" : "rcl_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f7deea426cefa940fc86.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcl",
+		"source" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcl/rcl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

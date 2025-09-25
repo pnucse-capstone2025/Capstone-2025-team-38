@@ -1,0 +1,24 @@
+[0.485s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/ros2_tracing/tracetools_read': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/install.log --single-version-externally-managed install_data
+[0.564s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.564s]   warnings.warn(msg)
+[0.594s] running egg_info
+[0.597s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[0.598s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[0.598s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[0.628s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[0.628s] running build
+[0.628s] running build_py
+[0.628s] copying tracetools_read/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[0.629s] copying tracetools_read/trace.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/build/lib/tracetools_read
+[0.629s] running install
+[0.631s] running install_lib
+[0.635s] running install_data
+[0.635s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools_read
+[0.635s] copying resource/tracetools_read -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages
+[0.635s] running install_egg_info
+[0.640s] removing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info' (and everything under it)
+[0.640s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info
+[0.640s] running install_scripts
+[0.659s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/install.log'
+[0.670s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/ros2_tracing/tracetools_read' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_read/install.log --single-version-externally-managed install_data

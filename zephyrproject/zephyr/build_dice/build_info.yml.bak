@@ -1,0 +1,5 @@
+west:
+  command: /home/tmdals010126/zephyrproject/.venv/bin/west build -p always -b nucleo_l552ze_q
+    micro_ros_dice -d build_dice
+  topdir: /home/tmdals010126/zephyrproject
+  version: 1.4.0

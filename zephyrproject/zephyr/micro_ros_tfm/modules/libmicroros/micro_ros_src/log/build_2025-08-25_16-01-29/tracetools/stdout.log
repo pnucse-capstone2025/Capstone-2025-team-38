@@ -1,0 +1,45 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /home/tmdals010126/zephyrproject/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools'
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools'
+-- Install configuration: "Release"
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools/tracetools
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools/tracetools/visibility_control.hpp
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools/tracetools/utils.hpp
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools/tracetools/config.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/tracetools/tracetools/tracetools.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/tracetools
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/tracetools
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/environment/ament_prefix_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/environment/ament_prefix_path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/environment/path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/environment/path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/local_setup.bash
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/local_setup.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/local_setup.zsh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/local_setup.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/package.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages/tracetools
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/cmake/tracetools_exportExport.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/cmake/tracetoolsConfig.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/cmake/tracetoolsConfig-version.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools/package.xml

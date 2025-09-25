@@ -1,0 +1,131 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /home/tmdals010126/zephyrproject/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found builtin_interfaces: 1.2.2 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 3.1.7 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_adapter/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_microxrcedds_c
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[  8%] Generating C code for ROS interfaces
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 16%] Building C object CMakeFiles/rosgraph_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosgraph_msgs/msg/detail/clock__functions.c.obj
+[ 25%] Linking C static library librosgraph_msgs__rosidl_generator_c.a
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 25%] Built target rosgraph_msgs__rosidl_generator_c
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 33%] Generating C type support for eProsima Micro XRCE-DDS
+[ 41%] Generating C introspection for ROS interfaces
+[ 50%] Generating C type support dispatch for ROS interfaces
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 58%] Building CXX object CMakeFiles/rosgraph_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosgraph_msgs/msg/clock__type_support.cpp.obj
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 66%] Building C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosgraph_msgs/msg/detail/clock__type_support.c.obj
+[ 75%] Building C object CMakeFiles/rosgraph_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c.obj
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c:4[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs/rosidl_typesupport_microxrcedds_c/rosgraph_msgs/msg/detail/microxrcedds/clock__type_support_c.c:9[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+[ 83%] Linking CXX static library librosgraph_msgs__rosidl_typesupport_c.a
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[ 91%] Linking C static library librosgraph_msgs__rosidl_typesupport_introspection_c.a
+[ 91%] Built target rosgraph_msgs__rosidl_typesupport_c
+[100%] Linking CXX static library librosgraph_msgs__rosidl_typesupport_microxrcedds_c.a
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[100%] Built target rosgraph_msgs__rosidl_typesupport_introspection_c
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[100%] Built target rosgraph_msgs__rosidl_typesupport_microxrcedds_c
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+[100%] Built target rosgraph_msgs
+gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosgraph_msgs'
+-- Install configuration: "Release"
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/rosidl_interfaces/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.c
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__struct.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__functions.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/clock.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/library_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/library_path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/librosgraph_msgs__rosidl_generator_c.a
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__type_support.c
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_introspection_c.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/rosgraph_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.a
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/msg
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/msg/detail
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/msg/detail/clock__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/msg/detail/microxrcedds
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/rosgraph_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/librosgraph_msgs__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/librosgraph_msgs__rosidl_typesupport_c.a
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/msg/Clock.idl
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/msg/Clock.msg
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/environment/path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/local_setup.bash
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/local_setup.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/local_setup.zsh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/local_setup.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/package.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages/rosgraph_msgs
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosgraph_msgs/package.xml

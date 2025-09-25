@@ -1,0 +1,1 @@
+['--no-warn-unused-cli', '-DROSIDL_TYPESUPPORT_SKIP_CPP=ON', '-DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF', '-DTHIRDPARTY=ON', '-DBUILD_SHARED_LIBS=OFF', '-DBUILD_TESTING=OFF', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_TOOLCHAIN_FILE=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/zephyr_toolchain.cmake', '-DCMAKE_VERBOSE_MAKEFILE=OFF']

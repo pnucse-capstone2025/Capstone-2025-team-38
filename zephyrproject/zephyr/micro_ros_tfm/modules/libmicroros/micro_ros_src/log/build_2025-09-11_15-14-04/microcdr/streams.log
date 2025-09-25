@@ -1,0 +1,24 @@
+[0.105s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr': /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr -- -j28 -l28
+[0.298s] gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.298s] -- Configuring done (0.0s)
+[0.298s] -- Generating done (0.0s)
+[0.298s] -- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr
+[0.298s] gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.298s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.298s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.298s] [100%] Built target microcdr
+[0.298s] gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.299s] gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.301s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr' returned '0': /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr -- -j28 -l28
+[0.302s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr': /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr
+[0.310s] -- Install configuration: "Release"
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/libmicrocdr.a
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/visibility.h
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/microcdr.h
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/config.h
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+[0.310s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.328s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr' returned '0': /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr

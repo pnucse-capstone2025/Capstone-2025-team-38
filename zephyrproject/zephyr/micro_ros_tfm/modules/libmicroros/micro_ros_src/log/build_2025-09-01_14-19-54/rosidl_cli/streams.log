@@ -1,0 +1,79 @@
+[0.507s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/rosidl/rosidl_cli': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[0.579s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.579s]   warnings.warn(msg)
+[0.597s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.597s] !!
+[0.597s] 
+[0.597s]         ********************************************************************************
+[0.597s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.597s] 
+[0.597s]         License :: OSI Approved :: Apache Software License
+[0.597s] 
+[0.597s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.598s]         ********************************************************************************
+[0.598s] 
+[0.598s] !!
+[0.598s]   self._finalize_license_expression()
+[0.615s] running egg_info
+[0.621s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[0.621s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[0.621s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[0.621s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[1.805s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.806s] running build
+[1.806s] running build_py
+[1.806s] copying rosidl_cli/cli.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.806s] copying rosidl_cli/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.806s] copying rosidl_cli/common.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.806s] copying rosidl_cli/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.806s] copying rosidl_cli/entry_points.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.806s] copying rosidl_cli/command/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.806s] copying rosidl_cli/command/helpers.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.807s] copying rosidl_cli/command/translate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.807s] copying rosidl_cli/command/translate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.807s] copying rosidl_cli/command/translate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.807s] copying rosidl_cli/command/generate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.807s] copying rosidl_cli/command/generate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.807s] copying rosidl_cli/command/generate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.807s] running install
+[1.809s] running install_lib
+[1.813s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.813s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.813s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.814s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.814s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/api.py to api.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/api.py to api.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-310.pyc
+[1.815s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/cli.py to cli.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/__init__.py to __init__.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/common.py to common.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/extensions.py to extensions.cpython-310.pyc
+[1.816s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-310.pyc
+[1.817s] running install_data
+[1.817s] copying resource/rosidl_cli -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages
+[1.817s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli
+[1.817s] copying resource/package.dsv -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli
+[1.817s] copying completion/rosidl-argcomplete.bash -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli/environment
+[1.818s] copying completion/rosidl-argcomplete.zsh -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli/environment
+[1.818s] running install_egg_info
+[1.824s] removing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli-3.1.7-py3.10.egg-info' (and everything under it)
+[1.824s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli-3.1.7-py3.10.egg-info
+[1.825s] running install_scripts
+[1.833s] Installing rosidl script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin
+[1.834s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log'
+[1.845s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed install_data

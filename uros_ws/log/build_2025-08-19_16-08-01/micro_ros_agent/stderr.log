@@ -1,0 +1,69 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'TF-M-test'
+[33mCMake Warning (dev) at /usr/local/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /home/tmdals010126/ros2_humble/install/fastrtps/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/serial/SerialAgentLinux.cpp:[m[K In member function ‘[01m[Kvirtual bool eprosima::uxr::SerialAgent::recv_message(eprosima::uxr::InputPacket<eprosima::uxr::SerialEndPoint>&, int, eprosima::uxr::TransportRc&)[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/serial/SerialAgentLinux.cpp:117:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  117 |                 printf("input_packet.message->get_len(): [01;35m[K%d[m[K\n", [32m[Kinput_packet.message->get_len()[m[K);
+      |                                                          [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                           [01;35m[K|[m[K                                  [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                                [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/serial/SerialAgentLinux.cpp:119:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |                 for(int i = 0; [01;35m[Ki < input_packet.message->get_len()[m[K; i++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/serial/SerialAgentLinux.cpp:138:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  138 |                 for(int i = 0; [01;35m[Ki < token_size[m[K; i++)
+      |                                [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:[m[K In static member function ‘[01m[Kstatic std::unique_ptr<eprosima::uxr::Participant> eprosima::uxr::Participant::create(const dds::xrce::ObjectId&, const std::shared_ptr<eprosima::uxr::ProxyClient>&, const dds::xrce::OBJK_PARTICIPANT_Representation&)[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:95:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   95 |                 [01;35m[K"main_executable"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:96:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   96 |                 [01;35m[K"-t"[m[K,
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:97:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   97 |                 [01;35m[K"PSA-IoT-Profile1-token"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:98:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   98 |                 [01;35m[K"-k"[m[K,
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:99:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   99 |                 [01;35m[K"iat/tfm_initial_attestation_key.pem"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:100:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+  100 |                 [01;35m[K"iat/attestation_token.dat"[m[K
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::IPv4EndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1068:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  309 |             uint8_t [01;35m[Knonce_buf[m[K[IAT_NONCE_SIZE] = {0,};
+      |                     [01;35m[K^~~~~~~~~[m[K
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::IPv6EndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1069:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::CanEndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1070:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::SerialEndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1071:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::MultiSerialEndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1072:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp: In instantiation of ‘[01m[Kbool eprosima::uxr::Processor<EndPoint>::process_create_client_submessage(eprosima::uxr::InputPacket<EndPoint>&) [with EndPoint = eprosima::uxr::CustomEndPoint][m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:1073:16:[m[K   required from here
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:309:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Knonce_buf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/iat-wrapper/iat_wrapper.c:[m[K In function ‘[01m[Krun_check_iat[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/iat-wrapper/iat_wrapper.c:8:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpArgs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    8 |     PyObject *[01;35m[KpArgs[m[K, *pValue;
+      |               [01;35m[K^~~~~[m[K

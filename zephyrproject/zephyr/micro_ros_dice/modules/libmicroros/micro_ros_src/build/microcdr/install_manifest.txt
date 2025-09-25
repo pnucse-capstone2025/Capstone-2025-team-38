@@ -1,0 +1,8 @@
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/libmicrocdr.a
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/ucdr/visibility.h
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/ucdr/microcdr.h
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/include/ucdr/config.h
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake

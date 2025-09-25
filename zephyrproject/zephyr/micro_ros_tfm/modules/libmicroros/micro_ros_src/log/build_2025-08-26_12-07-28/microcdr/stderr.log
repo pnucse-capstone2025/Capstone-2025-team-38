@@ -1,0 +1,44 @@
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/string.c:16[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/../common_internal.h:22[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/array.c:15[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/sequence.c:15[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common_internal.h:22[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common.c:15[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/../common_internal.h:22[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/basic.c:15[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/string.c:18[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/array.c:17[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common.c:17[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/basic.c:17[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K

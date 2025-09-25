@@ -1,0 +1,154 @@
+#!python
+#-------------------------------------------------------------------------------
+# Copyright (c) 2019-2025, Arm Limited. All rights reserved.
+#
+# SPDX-License-Identifier: BSD-3-Clause
+#
+#-------------------------------------------------------------------------------
+
+"""CLI tool for compiling token from a yaml file"""
+
+import argparse
+import logging
+import os
+import sys
+
+from pycose.algorithms import Es256, Es384, HMAC256
+
+from iatverifier.util import read_token_map, convert_map_to_token, read_keyfile
+from iatverifier.util import get_cose_alg_from_key
+from iatverifier.psa_iot_profile1_token_verifier import PSAIoTProfile1TokenVerifier
+from iatverifier.psa_2_0_0_token_verifier import PSA_2_0_0_TokenVerifier
+from iatverifier.attest_token_verifier import AttestationTokenVerifier, VerifierConfiguration
+from iatverifier.cca_token_verifier import CCATokenVerifier, CCAPlatformTokenVerifier
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+
+    token_verifiers = {
+        "PSA-IoT-Profile1-token": PSAIoTProfile1TokenVerifier,
+        "CCA-token": CCATokenVerifier,
+        "CCA-plat-token": CCAPlatformTokenVerifier,
+        "PSA-2.0.0-token": PSA_2_0_0_TokenVerifier,
+    }
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('source', help='Token source in YAML format')
+    parser.add_argument('-o', '--outfile',
+                        help='''Output file for the compiled token. If this is not
+                        specified, the token will be written to standard output.''')
+    parser.add_argument('-k', '--key',
+                        help='''Path to the key in PEM format that should be used to
+                        sign the token. If this is not specified, the token will be
+                        unsigned.''')
+    parser.add_argument('--platform-key',
+                        help='''Path to the key in PEM format that should be used to
+                        sign the CCA platform token. If this is not specified,
+                        the token will be unsigned.''')
+    parser.add_argument('--realm-key',
+                        help='''Path to the key in PEM format that should be used to
+                        sign the CCA Realm token. If this is not specified, the
+                        token will be unsigned.''')
+    parser.add_argument('-m', '--method', choices=['sign', 'mac', 'raw'], default='sign',
+                        help='''
+                        Specify how this token is to be wrapped -- whether Sign1Message or
+                        Mac0Message COSE structure is to be used. In case of 'raw' no COSE envelope is
+                        added to the compiled token.
+                        ''')
+    parser.add_argument('-t', '--token-type',
+                        help='''The type of the Token.''',
+                        choices=token_verifiers.keys(),
+                        required=True)
+    parser.add_argument('--gen-token-indicator',
+                        help='''Expect token indicator in the cbor.''',
+                        action='store_true')
+
+    args = parser.parse_args()
+
+    if args.method == 'mac':
+        METHOD = AttestationTokenVerifier.SIGN_METHOD_MAC0
+    elif args.method == 'raw':
+        if args.key:
+            raise ValueError('A keyfile cannot be specified with --raw.')
+        METHOD = AttestationTokenVerifier.SIGN_METHOD_RAW
+    elif args.method == 'sign':
+        METHOD = AttestationTokenVerifier.SIGN_METHOD_SIGN1
+    else:
+        assert False
+
+    configuration = VerifierConfiguration(strict=True, keep_going=False)
+
+    verifier_class = token_verifiers[args.token_type]
+    if verifier_class == PSAIoTProfile1TokenVerifier:
+        key = read_keyfile(args.key, METHOD)
+        if METHOD == AttestationTokenVerifier.SIGN_METHOD_SIGN1:
+            cose_alg = get_cose_alg_from_key(key, Es256)
+        else:
+            cose_alg = HMAC256
+        verifier = PSAIoTProfile1TokenVerifier(
+            method=METHOD,
+            cose_alg=cose_alg,
+            signing_key=key,
+            configuration=configuration)
+    elif verifier_class == CCATokenVerifier:
+        if METHOD != AttestationTokenVerifier.SIGN_METHOD_SIGN1:
+            logging.error('Only sign1 method is supported by this token type.\n\t')
+            sys.exit(1)
+        platform_token_key = read_keyfile(args.platform_key, METHOD)
+        realm_token_key = read_keyfile(args.realm_key, METHOD)
+        realm_token_method = AttestationTokenVerifier.SIGN_METHOD_SIGN1
+        platform_token_method = AttestationTokenVerifier.SIGN_METHOD_SIGN1
+        realm_token_cose_alg = get_cose_alg_from_key(realm_token_key, Es384)
+        platform_token_cose_alg = get_cose_alg_from_key(platform_token_key, Es384)
+        verifier = CCATokenVerifier(
+            realm_token_method=realm_token_method,
+            realm_token_cose_alg=realm_token_cose_alg,
+            realm_token_key=realm_token_key,
+            platform_token_method=platform_token_method,
+            platform_token_cose_alg=platform_token_cose_alg,
+            platform_token_key=platform_token_key,
+            configuration=configuration)
+    elif verifier_class == CCAPlatformTokenVerifier:
+        key_checked = args.platform_key
+        key = read_keyfile(args.platform_key, METHOD)
+        cose_alg = get_cose_alg_from_key(key, Es384)
+        verifier = CCAPlatformTokenVerifier(
+            method=AttestationTokenVerifier.SIGN_METHOD_SIGN1,
+            cose_alg=cose_alg,
+            signing_key=key,
+            configuration=configuration,
+            necessity=None,
+            has_type_indicator=args.gen_token_indicator)
+    elif verifier_class == PSA_2_0_0_TokenVerifier:
+        key_checked = args.key
+        key = read_keyfile(keyfile=args.key, method=METHOD)
+        if METHOD == AttestationTokenVerifier.SIGN_METHOD_SIGN1:
+            cose_alg = get_cose_alg_from_key(key, Es256)
+        else:
+            cose_alg = HMAC256
+        verifier = PSA_2_0_0_TokenVerifier(
+            method=METHOD,
+            cose_alg=cose_alg,
+            signing_key=key,
+            configuration=configuration)
+    else:
+        logging.error(f'Invalid token type:{verifier_class}\n\t')
+        sys.exit(1)
+    token_map = read_token_map(args.source)
+
+    if args.outfile:
+        with open(args.outfile, 'wb') as wfh:
+            convert_map_to_token(
+                token_map,
+                verifier,
+                wfh,
+                name_as_key=True,
+                parse_raw_value=True)
+    else:
+        with os.fdopen(sys.stdout.fileno(), 'wb') as wfh:
+            convert_map_to_token(
+                token_map,
+                verifier,
+                wfh,
+                name_as_key=True,
+                parse_raw_value=True)

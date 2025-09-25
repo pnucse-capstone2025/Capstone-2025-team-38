@@ -1,0 +1,10 @@
+{
+  "package_name": "diagnostic_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/diagnostic_msgs:msg/DiagnosticArray.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/diagnostic_msgs:msg/DiagnosticStatus.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/diagnostic_msgs:msg/KeyValue.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/diagnostic_msgs:srv/AddDiagnostics.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/diagnostic_msgs:srv/SelfTest.srv"
+  ]
+}

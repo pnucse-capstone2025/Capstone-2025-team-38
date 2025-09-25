@@ -1,0 +1,8 @@
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/uninstall.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/ament_cmake_copyright_uninstall.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/test.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/edit_cache.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/rebuild_cache.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/list_install_components.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/install.dir
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_cmake_copyright/CMakeFiles/install/local.dir

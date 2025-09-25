@@ -1,0 +1,3 @@
+/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/qcbor-populate.dir
+/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/edit_cache.dir
+/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/rebuild_cache.dir

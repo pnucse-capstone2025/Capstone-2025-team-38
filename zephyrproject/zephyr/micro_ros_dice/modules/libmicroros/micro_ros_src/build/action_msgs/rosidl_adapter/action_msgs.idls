@@ -1,0 +1,4 @@
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

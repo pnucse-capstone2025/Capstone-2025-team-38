@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/uros_ws/build/micro_ros_agent
+[  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+Cloning into 'xrceagent'...
+Branch 'TF-M-test' set up to track remote branch 'TF-M-test' from 'origin'.
+Switched to a new branch 'TF-M-test'
+[ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/tmdals010126/uros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[ 12%] [34m[1mCreating directories for 'uagent'[0m
+[ 25%] [34m[1mNo download step for 'uagent'[0m
+[ 37%] [34m[1mNo update step for 'uagent'[0m
+[ 50%] [34m[1mNo patch step for 'uagent'[0m
+[ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+loading initial cache file /home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+[33mCMake Warning (dev) at /usr/local/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /home/tmdals010126/ros2_humble/install/fastrtps/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development Development.Module Development.Embed 
+-- Configuring done (0.6s)
+[31mCMake Error at CMakeLists.txt:302 (target_link_libraries):
+  Target "microxrcedds_agent" links to:
+
+    Python3::Development
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+-- Generating done (0.0s)
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

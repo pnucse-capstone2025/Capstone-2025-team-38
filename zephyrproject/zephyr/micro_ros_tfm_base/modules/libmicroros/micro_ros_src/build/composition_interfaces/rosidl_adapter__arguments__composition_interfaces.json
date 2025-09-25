@@ -1,0 +1,8 @@
+{
+  "package_name": "composition_interfaces",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/LoadNode.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/ListNodes.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/composition_interfaces:srv/UnloadNode.srv"
+  ]
+}

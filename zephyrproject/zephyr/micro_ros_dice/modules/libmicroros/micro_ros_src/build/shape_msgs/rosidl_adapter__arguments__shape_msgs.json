@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

@@ -1,0 +1,46 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'TF-M-test'
+[33mCMake Warning (dev) at /usr/local/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /home/tmdals010126/ros2_humble/install/fastrtps/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:[m[K In static member function ‘[01m[Kstatic std::unique_ptr<eprosima::uxr::Participant> eprosima::uxr::Participant::create(const dds::xrce::ObjectId&, const std::shared_ptr<eprosima::uxr::ProxyClient>&, const dds::xrce::OBJK_PARTICIPANT_Representation&)[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:95:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   95 |                 [01;35m[K"main_executable"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:96:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   96 |                 [01;35m[K"-t"[m[K,
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:97:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   97 |                 [01;35m[K"PSA-IoT-Profile1-token"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:98:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   98 |                 [01;35m[K"-k"[m[K,
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:99:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   99 |                 [01;35m[K"iat/tfm_initial_attestation_key.pem"[m[K,
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:100:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+  100 |                 [01;35m[K"iat/attestation_token.dat"[m[K
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/iat-wrapper/iat_wrapper.c:1:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+    1 | #include [01;31m[K<Python.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[8]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:650: CMakeFiles/microxrcedds_agent.dir/src/iat-wrapper/iat_wrapper.c.o] Error 1
+gmake[8]: *** Waiting for unfinished jobs....
+gmake[7]: *** [CMakeFiles/Makefile2:83: CMakeFiles/microxrcedds_agent.dir/all] Error 2
+gmake[6]: *** [Makefile:136: all] Error 2
+gmake[5]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Error 2
+gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+gmake[3]: *** [Makefile:91: all] Error 2
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

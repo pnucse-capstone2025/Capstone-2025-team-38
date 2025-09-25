@@ -1,0 +1,64 @@
+running egg_info
+creating ../build/iatverifier/iatverifier.egg-info
+writing ../build/iatverifier/iatverifier.egg-info/PKG-INFO
+writing dependency_links to ../build/iatverifier/iatverifier.egg-info/dependency_links.txt
+writing requirements to ../build/iatverifier/iatverifier.egg-info/requires.txt
+writing top-level names to ../build/iatverifier/iatverifier.egg-info/top_level.txt
+writing manifest file '../build/iatverifier/iatverifier.egg-info/SOURCES.txt'
+reading manifest file '../build/iatverifier/iatverifier.egg-info/SOURCES.txt'
+writing manifest file '../build/iatverifier/iatverifier.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/attest_token_verifier.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/psa_2_0_0_token_claims.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/psa_iot_profile1_token_verifier.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/cca_claims.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/psa_2_0_0_token_verifier.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/lifecycle_claim.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/__init__.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/util.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/cca_token_verifier.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+copying iatverifier/psa_iot_profile1_token_claims.py -> /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier
+running build_scripts
+creating /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10
+copying and adjusting scripts/check_iat -> /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10
+copying and adjusting scripts/compile_token -> /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10
+copying and adjusting scripts/decompile_token -> /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10
+changing mode of /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/check_iat from 664 to 775
+changing mode of /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/compile_token from 664 to 775
+changing mode of /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/decompile_token from 664 to 775
+running install
+running install_lib
+creating /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/attest_token_verifier.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/psa_2_0_0_token_claims.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/psa_iot_profile1_token_verifier.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/cca_claims.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/psa_2_0_0_token_verifier.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/lifecycle_claim.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/__init__.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/util.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/cca_token_verifier.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/lib/iatverifier/psa_iot_profile1_token_claims.py -> /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/attest_token_verifier.py to attest_token_verifier.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/psa_2_0_0_token_claims.py to psa_2_0_0_token_claims.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/psa_iot_profile1_token_verifier.py to psa_iot_profile1_token_verifier.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/cca_claims.py to cca_claims.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/psa_2_0_0_token_verifier.py to psa_2_0_0_token_verifier.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/lifecycle_claim.py to lifecycle_claim.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/util.py to util.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/cca_token_verifier.py to cca_token_verifier.cpython-310.pyc
+byte-compiling /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier/psa_iot_profile1_token_claims.py to psa_iot_profile1_token_claims.cpython-310.pyc
+running install_egg_info
+Copying ../build/iatverifier/iatverifier.egg-info to /home/tmdals010126/uros_ws/install/iatverifier/lib/python3.10/site-packages/iatverifier-0.1-py3.10.egg-info
+running install_scripts
+creating /home/tmdals010126/uros_ws/install/iatverifier/bin
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/check_iat -> /home/tmdals010126/uros_ws/install/iatverifier/bin
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/decompile_token -> /home/tmdals010126/uros_ws/install/iatverifier/bin
+copying /home/tmdals010126/uros_ws/build/iatverifier/build/scripts-3.10/compile_token -> /home/tmdals010126/uros_ws/install/iatverifier/bin
+changing mode of /home/tmdals010126/uros_ws/install/iatverifier/bin/check_iat to 775
+changing mode of /home/tmdals010126/uros_ws/install/iatverifier/bin/decompile_token to 775
+changing mode of /home/tmdals010126/uros_ws/install/iatverifier/bin/compile_token to 775
+writing list of installed files to '/home/tmdals010126/uros_ws/build/iatverifier/install.log'

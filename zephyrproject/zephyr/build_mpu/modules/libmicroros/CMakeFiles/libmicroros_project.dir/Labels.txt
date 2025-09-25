@@ -1,0 +1,13 @@
+# Target labels
+ libmicroros_project
+# Source files and their labels
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/modules/libmicroros/CMakeFiles/libmicroros_project
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/modules/libmicroros/CMakeFiles/libmicroros_project.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/modules/libmicroros/CMakeFiles/libmicroros_project-complete.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-build.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-configure.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-download.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-install.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-mkdir.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-patch.rule
+/home/tmdals010126/zephyrproject/zephyr/build_mpu/libmicroros-prefix/src/libmicroros_project-stamp/libmicroros_project-update.rule

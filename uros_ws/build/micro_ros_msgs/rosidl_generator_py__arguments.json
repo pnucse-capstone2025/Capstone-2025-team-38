@@ -1,0 +1,28 @@
+{
+  "package_name": "micro_ros_msgs",
+  "output_dir": "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_generator_py/micro_ros_msgs",
+  "template_dir": "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Graph.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Node.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs:msg/Entity.idl"
+  ],
+  "target_dependencies": [
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/home/tmdals010126/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Graph.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Node.idl",
+    "/home/tmdals010126/uros_ws/build/micro_ros_msgs/rosidl_adapter/micro_ros_msgs/msg/Entity.idl"
+  ]
+}

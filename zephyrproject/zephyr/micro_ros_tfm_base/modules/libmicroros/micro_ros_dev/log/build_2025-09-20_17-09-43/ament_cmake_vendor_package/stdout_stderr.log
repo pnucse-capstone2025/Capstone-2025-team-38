@@ -1,0 +1,37 @@
+-- Found ament_cmake_core: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /home/tmdals010126/zephyrproject/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_cmake_export_dependencies: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/build/ament_cmake_vendor_package
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/build/ament_cmake_vendor_package'
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/build/ament_cmake_vendor_package'
+-- Install configuration: ""
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/package_run_dependencies/ament_cmake_vendor_package
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/parent_prefix_path/ament_cmake_vendor_package
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.bash
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.zsh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/packages/ament_cmake_vendor_package
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_package-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig-version.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.xml
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_vendor.cmake
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.dsv.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.dsv.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.bat.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.sh.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.cmake.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.bat.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.sh.in
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/target.repos.in

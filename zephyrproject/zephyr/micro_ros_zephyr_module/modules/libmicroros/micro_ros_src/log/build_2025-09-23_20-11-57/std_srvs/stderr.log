@@ -1,0 +1,27 @@
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c:4[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c:4[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h:10[m[K,
+                 from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c:4[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/trigger__type_support_c.c:9[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/empty__type_support_c.c:9[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/std_srvs/rosidl_typesupport_microxrcedds_c/std_srvs/srv/detail/microxrcedds/set_bool__type_support_c.c:9[m[K:
+[01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+   16 | #[01;35m[Kinclude_next[m[K <string.h>
+      |  [01;35m[K^~~~~~~~~~~~[m[K

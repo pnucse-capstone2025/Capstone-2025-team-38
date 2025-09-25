@@ -1,0 +1,11 @@
+struct MessageHeader
+{
+    uint8 session_id;
+    uint8 stream_id;
+    uint16 sequence_nr;
+    ClientKey client_key;
+    unsigned long nonce;
+    sequence<octet> token;
+};
+
+#endif // _UXR_AGENT_MESSAGE_HEADER_IDL_ 

@@ -1,0 +1,53 @@
+cmake:
+  application:
+    configuration-dir: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module
+    source-dir: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module
+  board:
+    name: nucleo_l552ze_q
+    qualifiers: stm32l552xx
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - /home/tmdals010126/zephyrproject/zephyr/dts/bindings
+    files:
+     - /home/tmdals010126/zephyrproject/zephyr/boards/st/nucleo_l552ze_q/nucleo_l552ze_q.dts
+     - /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/app.overlay
+    include-dirs:
+     - /home/tmdals010126/zephyrproject/modules/hal/atmel/include
+     - /home/tmdals010126/zephyrproject/modules/hal/gigadevice/include
+     - /home/tmdals010126/zephyrproject/modules/hal/microchip/dts
+     - /home/tmdals010126/zephyrproject/modules/hal/nuvoton/dts
+     - /home/tmdals010126/zephyrproject/modules/hal/nxp/dts
+     - /home/tmdals010126/zephyrproject/modules/hal/stm32/dts
+     - /home/tmdals010126/zephyrproject/zephyr/include
+     - /home/tmdals010126/zephyrproject/zephyr/include/zephyr
+     - /home/tmdals010126/zephyrproject/zephyr/dts/common
+     - /home/tmdals010126/zephyrproject/zephyr/dts/x86
+     - /home/tmdals010126/zephyrproject/zephyr/dts/xtensa
+     - /home/tmdals010126/zephyrproject/zephyr/dts/sparc
+     - /home/tmdals010126/zephyrproject/zephyr/dts/riscv
+     - /home/tmdals010126/zephyrproject/zephyr/dts/posix
+     - /home/tmdals010126/zephyrproject/zephyr/dts/nios2
+     - /home/tmdals010126/zephyrproject/zephyr/dts/arm64
+     - /home/tmdals010126/zephyrproject/zephyr/dts/arm
+     - /home/tmdals010126/zephyrproject/zephyr/dts/arc
+     - /home/tmdals010126/zephyrproject/zephyr/dts
+    user-files:
+     - /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/app.overlay
+  kconfig:
+    files:
+     - /home/tmdals010126/zephyrproject/zephyr/boards/st/nucleo_l552ze_q/nucleo_l552ze_q_defconfig
+     - /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/prj.conf
+    user-files:
+     - /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/prj.conf
+  toolchain:
+    name: zephyr
+    path: /home/tmdals010126/zephyr-sdk-0.17.0
+  zephyr:
+    version: 4.0.0
+    zephyr-base: /home/tmdals010126/zephyrproject/zephyr
+version: 0.1.0
+west:
+  command: /home/tmdals010126/zephyrproject/.venv/bin/west build -p always -b nucleo_l552ze_q micro_ros_zephyr_module -d build_base
+  topdir: /home/tmdals010126/zephyrproject
+  version: 1.4.0

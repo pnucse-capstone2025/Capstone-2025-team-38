@@ -1,0 +1,5 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'dice'
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:122: agent/src/xrceagent-stamp/xrceagent-update] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Interrupt
+gmake: *** [Makefile:91: all] Interrupt

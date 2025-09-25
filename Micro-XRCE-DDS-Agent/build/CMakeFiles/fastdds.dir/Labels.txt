@@ -1,0 +1,31 @@
+# Target labels
+ fastdds
+# Source files and their labels
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds-complete.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-build.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-configure.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-download.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-install.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-mkdir.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-patch.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-test.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-update.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr-complete.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/foonathan_memory-complete.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-build.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-configure.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-download.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-install.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-mkdir.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-patch.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-update.rule

@@ -1,0 +1,6 @@
+{
+  "package_name": "rosgraph_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rosgraph_msgs:msg/Clock.msg"
+  ]
+}

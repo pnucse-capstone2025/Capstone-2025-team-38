@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/qcbor-populate"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/qcbor-populate.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/CMakeFiles/qcbor-populate-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-test.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/lib/ext/qcbor-subbuild/qcbor-populate-prefix/src/qcbor-populate-stamp/qcbor-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qcbor-populate"
+		],
+		"name" : "qcbor-populate"
+	}
+}

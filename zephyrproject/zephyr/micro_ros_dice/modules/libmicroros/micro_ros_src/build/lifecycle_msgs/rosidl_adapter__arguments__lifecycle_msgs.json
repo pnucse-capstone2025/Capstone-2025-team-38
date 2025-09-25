@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

@@ -1,0 +1,782 @@
+[0.123s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/domain_coordinator:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_xmllint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_uncrustify:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pyflakes:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pep257:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pclint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_package:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_mypy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint_cmake:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_copyright:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_index_python:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cpplint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cppcheck:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_tidy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_format /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils -- -j28 -l28
+[0.562s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/array_list.c:20[m[K:
+[0.562s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.562s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.562s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.562s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.562s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/char_array.c:16[m[K:
+[0.563s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.563s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.563s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.563s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/cmdline_parser.c:15[m[K:
+[0.563s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.563s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.563s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.563s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/format_string.h:23[m[K,
+[0.563s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/format_string.c:20[m[K:
+[0.563s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.563s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.563s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.563s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.563s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/error_handling.c:22[m[K:
+[0.563s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.563s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.563s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.563s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/hash_map.c:20[m[K:
+[0.563s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.564s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.564s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.564s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/find.c:20[m[K:
+[0.564s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.564s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.564s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.564s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/filesystem.h:27[m[K,
+[0.564s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/filesystem.c:19[m[K:
+[0.564s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.564s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.564s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.564s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.564s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/array_list.c:23[m[K:
+[0.564s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.564s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.564s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.566s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.566s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/allocator.c:20[m[K:
+[0.566s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.566s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.566s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.566s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.567s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.567s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.567s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.567s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.567s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.568s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.568s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.568s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/repl_str.c:33[m[K:
+[0.568s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.568s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.568s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.569s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/strdup.h:25[m[K,
+[0.569s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strdup.c:20[m[K:
+[0.570s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.570s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.570s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.570s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.571s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/env.c:25[m[K:
+[0.571s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.571s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.571s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.571s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/types/string_map.h:25[m[K,
+[0.572s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/string_map.c:20[m[K:
+[0.572s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.572s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.572s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.572s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.573s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.573s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.574s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.574s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/process.c:22[m[K:
+[0.574s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.574s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.574s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.574s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.574s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.575s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.575s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.575s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.575s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/hash_map.c:24[m[K:
+[0.575s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.575s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.575s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.575s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.576s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/qsort.c:22[m[K:
+[0.576s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.576s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.576s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.576s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:25[m[K:
+[0.577s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.577s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.577s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.577s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/env.c:[m[K In function '[01m[Krcutils_set_env[m[K':
+[0.577s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/find.c:23[m[K:
+[0.577s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.577s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.577s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.577s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.577s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./common.h:23[m[K,
+[0.577s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strdup.c:25[m[K:
+[0.577s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.578s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.578s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.578s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/env.c:45:14:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kunsetenv[m[K'; did you mean '[01m[K_unsetenv_r[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.578s]    45 |     if (0 != [01;35m[Kunsetenv[m[K(env_name)) {
+[0.578s]       |              [01;35m[K^~~~~~~~[m[K
+[0.578s]       |              [32m[K_unsetenv_r[m[K
+[0.578s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/types.h:11[m[K,
+[0.578s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:21[m[K,
+[0.578s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel.h:17[m[K,
+[0.578s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/posix_types.h:30[m[K,
+[0.578s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:9[m[K,
+[0.578s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/process.c:39[m[K:
+[0.579s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.579s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.579s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.579s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/env.c:50:14:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Ksetenv[m[K'; did you mean '[01m[Kgetenv[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.579s]    50 |     if (0 != [01;35m[Ksetenv[m[K(env_name, env_value, 1)) {
+[0.579s]       |              [01;35m[K^~~~~~[m[K
+[0.579s]       |              [32m[Kgetenv[m[K
+[0.579s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strcasecmp.c:21[m[K:
+[0.579s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.579s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.579s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.579s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/filesystem.c:24[m[K:
+[0.579s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.580s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.580s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.580s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strerror.c:21[m[K:
+[0.580s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.580s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.580s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.580s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain.h:50[m[K,
+[0.580s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:23[m[K,
+[0.580s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel.h:17[m[K,
+[0.580s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/posix_types.h:30[m[K,
+[0.580s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:9[m[K,
+[0.580s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:42[m[K:
+[0.580s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h:87:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+[0.581s]    87 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert((EXPR), "" MSG)
+[0.581s]       |                               [01;35m[K^~~[m[K
+[0.581s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/error_handling.c:35[m[K:
+[0.581s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_convert_uint64_t_into_c_str[m[K':
+[0.581s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:48:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Knumber[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.581s]   109 | __rcutils_convert_uint64_t_into_c_str([01;35m[Kuint64_t number[m[K, char * buffer, size_t buffer_size)
+[0.581s]       |                                       [01;35m[K~~~~~~~~~^~~~~~[m[K
+[0.581s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:63:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.581s]   109 | __rcutils_convert_uint64_t_into_c_str(uint64_t number, [01;35m[Kchar * buffer[m[K, size_t buffer_size)
+[0.581s]       |                                                        [01;35m[K~~~~~~~^~~~~~[m[K
+[0.581s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:78:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kbuffer_size[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.581s]   109 | __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, [01;35m[Ksize_t buffer_size[m[K)
+[0.581s]       |                                                                       [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[0.581s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:[m[K In function '[01m[K__rcutils_format_error_string[m[K':
+[0.582s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain.h:50[m[K,
+[0.582s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:23[m[K:
+[0.582s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h:87:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+[0.582s]    87 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert((EXPR), "" MSG)
+[0.582s]       |                               [01;35m[K^~~[m[K
+[0.582s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:142:28:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_string[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.582s]   142 |   [01;35m[Krcutils_error_string_t * error_string[m[K,
+[0.582s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[0.582s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:143:33:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kerror_state[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.582s]   143 |   [01;35m[Kconst rcutils_error_state_t * error_state[m[K)
+[0.582s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[0.582s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/repl_str.c:38[m[K:
+[0.582s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.582s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.583s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strcasecmp.c:[m[K In function '[01m[Krcutils_strcasecmp[m[K':
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strcasecmp.c:35:12:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrcasecmp[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.583s]    35 |   *value = [01;35m[Kstrcasecmp[m[K(s1, s2);
+[0.583s]       |            [01;35m[K^~~~~~~~~~[m[K
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strcasecmp.c:[m[K In function '[01m[Krcutils_strncasecmp[m[K':
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strcasecmp.c:53:12:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrncasecmp[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.583s]    53 |   *value = [01;35m[Kstrncasecmp[m[K(s1, s2, n);
+[0.583s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/error_handling.c:[m[K In function '[01m[Krcutils_get_error_string[m[K':
+[0.583s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/error_handling.c:240:38:[m[K [01;35m[Kwarning: [m[Kinitializer-string for array of '[01m[Kchar[m[K' is too long
+[0.583s]   240 |     return (rcutils_error_string_t) {[01;35m[K"error not set"[m[K};  // NOLINT(readability/braces)
+[0.583s]       |                                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.584s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/error_handling.c:240:38:[m[K [01;36m[Knote: [m[K(near initialization for '[01m[K(anonymous).str[m[K')
+[0.584s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain.h:50[m[K,
+[0.584s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:23[m[K,
+[0.584s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel.h:17[m[K,
+[0.584s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/posix_types.h:30[m[K,
+[0.584s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:9[m[K,
+[0.584s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/filesystem.c:32[m[K:
+[0.584s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h:87:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+[0.584s]    87 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert((EXPR), "" MSG)
+[0.584s]       |                               [01;35m[K^~~[m[K
+[0.584s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.584s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.584s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.584s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.585s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strerror.c:[m[K In function '[01m[Krcutils_strerror[m[K':
+[0.585s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/strerror.c:39:22:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kstrerror_r[m[K'; did you mean '[01m[K_strerror_r[m[K'? [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.585s]    39 |   int error_status = [01;35m[Kstrerror_r[m[K(errno, buffer, buffer_length);
+[0.585s]       |                      [01;35m[K^~~~~~~~~~[m[K
+[0.585s]       |                      [32m[K_strerror_r[m[K
+[0.585s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:[m[K At top level:
+[0.585s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_convert_uint64_t_into_c_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.585s]   109 | [01;35m[K__rcutils_convert_uint64_t_into_c_str[m[K(uint64_t number, char * buffer, size_t buffer_size)
+[0.585s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.585s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:91:1:[m[K [01;35m[Kwarning: [m[K'[01m[K__rcutils_reverse_str[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.585s]    91 | [01;35m[K__rcutils_reverse_str[m[K(char * string_in, size_t string_len)
+[0.585s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.585s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/string_map.c:24[m[K:
+[0.586s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.586s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.586s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.586s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.586s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/shared_library.c:57[m[K:
+[0.586s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.586s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.586s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.586s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.586s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.586s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.587s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.587s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/string_array.c:21[m[K:
+[0.587s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.587s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.587s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.587s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/atomic.h:18[m[K,
+[0.587s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:25[m[K:
+[0.587s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:[m[K In function '[01m[Kbcd2bin[m[K':
+[0.587s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:586:35:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kint[m[K' to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+[0.587s]   586 |         return [01;35m[K((10 * (bcd >> 4)) + (bcd & 0x0F))[m[K;
+[0.587s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.587s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.588s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/string_array.c:24[m[K:
+[0.588s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.588s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.588s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.588s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/atomic.h:18[m[K,
+[0.588s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:25[m[K:
+[0.588s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:[m[K In function '[01m[Kbcd2bin[m[K':
+[0.588s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:586:35:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kint[m[K' to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+[0.588s]   586 |         return [01;35m[K((10 * (bcd >> 4)) + (bcd & 0x0F))[m[K;
+[0.588s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.588s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/split.c:22[m[K:
+[0.588s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.588s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.588s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.589s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/testing/fault_injection.h:19[m[K,
+[0.589s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/testing/fault_injection.c:15[m[K:
+[0.589s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.589s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.589s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.589s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/atomic.h:18[m[K,
+[0.589s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:25[m[K:
+[0.589s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:[m[K In function '[01m[Kbcd2bin[m[K':
+[0.589s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.589s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/split.c:24[m[K:
+[0.589s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.589s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.590s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.590s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:586:35:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kint[m[K' to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+[0.590s]   586 |         return [01;35m[K((10 * (bcd >> 4)) + (bcd & 0x0F))[m[K;
+[0.590s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.590s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/structs.h:31[m[K,
+[0.590s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_structs.h:29[m[K,
+[0.590s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:32[m[K:
+[0.590s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:[m[K At top level:
+[0.590s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:22:8:[m[K [01;35m[Kwarning: [m[Kstruct has no members [[01;35m[K-Wpedantic[m[K]
+[0.590s]    22 | struct [01;35m[K_cpu_arch[m[K {
+[0.590s]       |        [01;35m[K^~~~~~~~~[m[K
+[0.590s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/structs.h:31[m[K,
+[0.590s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_structs.h:29[m[K,
+[0.590s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:32[m[K:
+[0.591s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:[m[K At top level:
+[0.591s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:22:8:[m[K [01;35m[Kwarning: [m[Kstruct has no members [[01;35m[K-Wpedantic[m[K]
+[0.591s]    22 | struct [01;35m[K_cpu_arch[m[K {
+[0.591s]       |        [01;35m[K^~~~~~~~~[m[K
+[0.591s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.591s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/logging.h:25[m[K,
+[0.591s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils/include/rcutils/logging_macros.h:22[m[K,
+[0.591s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/time_unix.c:24[m[K:
+[0.591s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.591s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.591s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.592s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/structs.h:31[m[K,
+[0.592s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_structs.h:29[m[K,
+[0.592s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:32[m[K:
+[0.592s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:[m[K At top level:
+[0.592s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:22:8:[m[K [01;35m[Kwarning: [m[Kstruct has no members [[01;35m[K-Wpedantic[m[K]
+[0.592s]    22 | struct [01;35m[K_cpu_arch[m[K {
+[0.592s]       |        [01;35m[K^~~~~~~~~[m[K
+[0.592s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.592s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.592s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.592s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.592s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:12[m[K,
+[0.592s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/time_unix.c:37[m[K:
+[0.592s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.593s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.593s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.593s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain.h:50[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:23[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel.h:17[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:59[m[K:
+[0.593s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h:87:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+[0.593s]    87 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert((EXPR), "" MSG)
+[0.593s]       |                               [01;35m[K^~~[m[K
+[0.593s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/mm.h:16[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/device_mmio.h:48[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/device.h:16[m[K,
+[0.593s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sw_isr_table.h:18[m[K,
+[0.594s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/irq.h:19[m[K,
+[0.594s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/arch.h:24[m[K,
+[0.594s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/cpu.h:19[m[K,
+[0.594s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:36[m[K:
+[0.594s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_phys_addr[m[K':
+[0.594s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:119:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.594s]   119 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.594s]       | [01;35m[K^[m[K
+[0.594s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:121:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.594s]   121 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.594s]       | [01;35m[K^[m[K
+[0.594s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:122:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.594s]   122 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.595s]       | [01;35m[K^[m[K
+[0.595s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:125:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.595s]   125 | [01;35m[K#[m[Kelse
+[0.595s]       | [01;35m[K^[m[K
+[0.595s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:127:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.595s]   127 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.595s]       | [01;35m[K^[m[K
+[0.595s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_virt_addr[m[K':
+[0.595s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:157:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.595s]   157 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.595s]       | [01;35m[K^[m[K
+[0.595s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:159:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.595s]   159 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.595s]       | [01;35m[K^[m[K
+[0.596s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:160:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.596s]   160 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.596s]       | [01;35m[K^[m[K
+[0.596s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:163:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.596s]   163 | [01;35m[K#[m[Kelse
+[0.596s]       | [01;35m[K^[m[K
+[0.596s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:165:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.596s]   165 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.596s]       | [01;35m[K^[m[K
+[0.596s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/atomic_64bits.c:20[m[K:
+[0.596s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.596s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.596s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.597s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/atomic_64bits.c:53:10:[m[K [01;35m[Kwarning: [m[Kconflicting types for built-in function '[01m[K__atomic_load_8[m[K'; expected '[01m[Klong long unsigned int(const volatile void *, int)[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+[0.597s]    53 | uint64_t [01;35m[K__atomic_load_8[m[K(uint64_t *mem, int model) {
+[0.597s]       |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.597s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/atomic_64bits.c:62:6:[m[K [01;35m[Kwarning: [m[Kconflicting types for built-in function '[01m[K__atomic_store_8[m[K'; expected '[01m[Kvoid(volatile void *, long long unsigned int,  int)[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+[0.597s]    62 | void [01;35m[K__atomic_store_8[m[K(uint64_t *mem, uint64_t val, int model) {
+[0.597s]       |      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[0.597s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/atomic_64bits.c:70:10:[m[K [01;35m[Kwarning: [m[Kconflicting types for built-in function '[01m[K__atomic_exchange_8[m[K'; expected '[01m[Klong long unsigned int(volatile void *, long long unsigned int,  int)[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+[0.597s]    70 | uint64_t [01;35m[K__atomic_exchange_8[m[K(uint64_t *mem, uint64_t val, int model) {
+[0.597s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.597s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/atomic_64bits.c:80:10:[m[K [01;35m[Kwarning: [m[Kconflicting types for built-in function '[01m[K__atomic_fetch_add_8[m[K'; expected '[01m[Klong long unsigned int(volatile void *, long long unsigned int,  int)[m[K' [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+[0.597s]    80 | uint64_t [01;35m[K__atomic_fetch_add_8[m[K(uint64_t *mem, uint64_t val, int model) {
+[0.597s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.597s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/time.h:25[m[K,
+[0.597s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/time.c:20[m[K:
+[0.598s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.598s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.598s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.598s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/types/array_list.h:25[m[K,
+[0.598s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/types.h:23[m[K,
+[0.598s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/time.h:28[m[K:
+[0.598s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.598s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.598s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.598s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:31[m[K,
+[0.598s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/uint8_array.c:15[m[K:
+[0.598s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.598s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.599s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.599s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/mm.h:16[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/device_mmio.h:48[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/device.h:16[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sw_isr_table.h:18[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/irq.h:19[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/arch.h:24[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/cpu.h:19[m[K,
+[0.599s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:36[m[K:
+[0.599s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_phys_addr[m[K':
+[0.599s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:119:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.599s]   119 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.599s]       | [01;35m[K^[m[K
+[0.599s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:121:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.600s]   121 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.600s]       | [01;35m[K^[m[K
+[0.600s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:122:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.600s]   122 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.600s]       | [01;35m[K^[m[K
+[0.600s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:125:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.600s]   125 | [01;35m[K#[m[Kelse
+[0.600s]       | [01;35m[K^[m[K
+[0.600s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:127:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.600s]   127 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.600s]       | [01;35m[K^[m[K
+[0.600s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_virt_addr[m[K':
+[0.601s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:157:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.601s]   157 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.601s]       | [01;35m[K^[m[K
+[0.601s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:159:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.601s]   159 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.601s]       | [01;35m[K^[m[K
+[0.601s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:160:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.601s]   160 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.601s]       | [01;35m[K^[m[K
+[0.601s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:163:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.601s]   163 | [01;35m[K#[m[Kelse
+[0.601s]       | [01;35m[K^[m[K
+[0.601s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:165:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.601s]   165 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.602s]       | [01;35m[K^[m[K
+[0.602s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/mm.h:16[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/device_mmio.h:48[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/device.h:16[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sw_isr_table.h:18[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/irq.h:19[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/arch.h:24[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/cpu.h:19[m[K,
+[0.602s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:36[m[K:
+[0.602s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_phys_addr[m[K':
+[0.602s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:119:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.602s]   119 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.602s]       | [01;35m[K^[m[K
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:121:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.603s]   121 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.603s]       | [01;35m[K^[m[K
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:122:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.603s]   122 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.603s]       | [01;35m[K^[m[K
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:125:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.603s]   125 | [01;35m[K#[m[Kelse
+[0.603s]       | [01;35m[K^[m[K
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:127:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.603s]   127 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.603s]       | [01;35m[K^[m[K
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_virt_addr[m[K':
+[0.603s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:157:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.604s]   157 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.604s]       | [01;35m[K^[m[K
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:159:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.604s]   159 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.604s]       | [01;35m[K^[m[K
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:160:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.604s]   160 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.604s]       | [01;35m[K^[m[K
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:163:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.604s]   163 | [01;35m[K#[m[Kelse
+[0.604s]       | [01;35m[K^[m[K
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:165:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.604s]   165 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.604s]       | [01;35m[K^[m[K
+[0.604s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:34[m[K:
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.604s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.604s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.604s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:12[m[K,
+[0.604s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/time.c:25[m[K:
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.604s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.604s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.604s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain.h:50[m[K,
+[0.604s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:23[m[K,
+[0.604s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel.h:17[m[K,
+[0.604s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:59[m[K:
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h:87:31:[m[K [01;35m[Kwarning: [m[KISO C does not permit named variadic macros [[01;35m[K-Wvariadic-macros[m[K]
+[0.604s]    87 | #define BUILD_ASSERT(EXPR, MSG[01;35m[K...[m[K) _Static_assert((EXPR), "" MSG)
+[0.604s]       |                               [01;35m[K^~~[m[K
+[0.604s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/atomic.h:18[m[K,
+[0.604s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:25[m[K:
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:[m[K In function '[01m[Kbcd2bin[m[K':
+[0.604s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:586:35:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kint[m[K' to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+[0.604s]   586 |         return [01;35m[K((10 * (bcd >> 4)) + (bcd & 0x0F))[m[K;
+[0.604s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.604s] gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.604s] -- Found ament_cmake_python: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cmake_python/share/ament_cmake_python/cmake)
+[0.604s] -- Found ament_cmake_ros: 0.10.0 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[0.604s] -- Configuring done (0.3s)
+[0.604s] -- Generating done (0.0s)
+[0.604s] -- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils
+[0.605s] gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] [  0%] Built target ament_cmake_python_copy_rcutils
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.605s] [  6%] Building C object CMakeFiles/rcutils.dir/src/char_array.c.obj
+[0.605s] [  6%] Building C object CMakeFiles/rcutils.dir/src/allocator.c.obj
+[0.605s] [ 10%] Building C object CMakeFiles/rcutils.dir/src/array_list.c.obj
+[0.605s] [ 13%] Building C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj
+[0.605s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/env.c.obj
+[0.605s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/error_handling.c.obj
+[0.605s] [ 24%] Building C object CMakeFiles/rcutils.dir/src/filesystem.c.obj
+[0.605s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/find.c.obj
+[0.605s] [ 31%] Building C object CMakeFiles/rcutils.dir/src/format_string.c.obj
+[0.605s] [ 37%] Building C object CMakeFiles/rcutils.dir/src/hash_map.c.obj
+[0.605s] [ 37%] Building C object CMakeFiles/rcutils.dir/src/logging.c.obj
+[0.605s] [ 41%] Building C object CMakeFiles/rcutils.dir/src/process.c.obj
+[0.605s] [ 48%] Building C object CMakeFiles/rcutils.dir/src/qsort.c.obj
+[0.605s] [ 48%] Building C object CMakeFiles/rcutils.dir/src/repl_str.c.obj
+[0.605s] [ 51%] Building C object CMakeFiles/rcutils.dir/src/shared_library.c.obj
+[0.605s] [ 55%] Building C object CMakeFiles/rcutils.dir/src/snprintf.c.obj
+[0.605s] [ 62%] Building C object CMakeFiles/rcutils.dir/src/strcasecmp.c.obj
+[0.605s] [ 62%] Building C object CMakeFiles/rcutils.dir/src/strdup.c.obj
+[0.605s] [ 65%] Building C object CMakeFiles/rcutils.dir/src/split.c.obj
+[0.605s] [ 68%] Building C object CMakeFiles/rcutils.dir/src/strerror.c.obj
+[0.605s] [ 72%] Building C object CMakeFiles/rcutils.dir/src/string_array.c.obj
+[0.605s] [ 75%] Building C object CMakeFiles/rcutils.dir/src/string_map.c.obj
+[0.605s] [ 79%] Building C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj
+[0.605s] [ 82%] Building C object CMakeFiles/rcutils.dir/src/time_unix.c.obj
+[0.605s] [ 89%] Building C object CMakeFiles/rcutils.dir/src/time.c.obj
+[0.605s] [ 89%] Building C object CMakeFiles/rcutils.dir/src/uint8_array.c.obj
+[0.605s] [ 93%] Building C object CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj
+[0.608s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/structs.h:31[m[K,
+[0.608s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_structs.h:29[m[K,
+[0.608s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:32[m[K:
+[0.608s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:[m[K At top level:
+[0.608s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:22:8:[m[K [01;35m[Kwarning: [m[Kstruct has no members [[01;35m[K-Wpedantic[m[K]
+[0.608s]    22 | struct [01;35m[K_cpu_arch[m[K {
+[0.609s]       |        [01;35m[K^~~~~~~~~[m[K
+[0.609s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/atomic.h:18[m[K,
+[0.609s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:25[m[K:
+[0.609s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:[m[K In function '[01m[Kbcd2bin[m[K':
+[0.609s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/util.h:586:35:[m[K [01;35m[Kwarning: [m[Kconversion from '[01m[Kint[m[K' to '[01m[Kuint8_t[m[K' {aka '[01m[Kunsigned char[m[K'} may change value [[01;35m[K-Wconversion[m[K]
+[0.609s]   586 |         return [01;35m[K((10 * (bcd >> 4)) + (bcd & 0x0F))[m[K;
+[0.609s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[0.695s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/structs.h:31[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_structs.h:29[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:32[m[K:
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:[m[K At top level:
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/structs.h:22:8:[m[K [01;35m[Kwarning: [m[Kstruct has no members [[01;35m[K-Wpedantic[m[K]
+[0.695s]    22 | struct [01;35m[K_cpu_arch[m[K {
+[0.695s]       |        [01;35m[K^~~~~~~~~[m[K
+[0.695s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/mm.h:16[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/device_mmio.h:48[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/device.h:16[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sw_isr_table.h:18[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/irq.h:19[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/arch.h:24[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/cpu.h:19[m[K,
+[0.695s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:36[m[K:
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_phys_addr[m[K':
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:119:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   119 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.695s]       | [01;35m[K^[m[K
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:121:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   121 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.695s]       | [01;35m[K^[m[K
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:122:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   122 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.695s]       | [01;35m[K^[m[K
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:125:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   125 | [01;35m[K#[m[Kelse
+[0.695s]       | [01;35m[K^[m[K
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:127:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   127 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.695s]       | [01;35m[K^[m[K
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_virt_addr[m[K':
+[0.695s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:157:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.695s]   157 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.695s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:159:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   159 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:160:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   160 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:163:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   163 | [01;35m[K#[m[Kelse
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:165:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   165 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:12[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/sys/stat.h:37[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:20[m[K:
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:[m[K At top level:
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.696s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.696s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_get_env_var_zero_or_one[m[K':
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:130:35:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kzero_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.696s]   130 |   const char * name, [01;35m[Kconst char * zero_semantic[m[K,
+[0.696s]       |                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:131:16:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Kone_semantic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+[0.696s]   131 |   [01;35m[Kconst char * one_semantic[m[K)
+[0.696s]       |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[0.696s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/mm.h:16[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sys/device_mmio.h:48[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/device.h:16[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/sw_isr_table.h:18[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/irq.h:19[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/arm/arch.h:24[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/arch/cpu.h:19[m[K,
+[0.696s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel_includes.h:36[m[K:
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_phys_addr[m[K':
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:119:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   119 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:121:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   121 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:122:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   122 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:125:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   125 | [01;35m[K#[m[Kelse
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:127:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   127 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:[m[K In function '[01m[Kk_mem_virt_addr[m[K':
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:157:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.696s]   157 | [01;35m[K#[m[Kif CONFIG_SRAM_BASE_ADDRESS != 0
+[0.696s]       | [01;35m[K^[m[K
+[0.696s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:159:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.697s]   159 | [01;35m[K#[m[Kendif /* CONFIG_SRAM_BASE_ADDRESS != 0 */
+[0.697s]       | [01;35m[K^[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:160:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.697s]   160 | [01;35m[K#[m[Kif (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0
+[0.697s]       | [01;35m[K^[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:163:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.697s]   163 | [01;35m[K#[m[Kelse
+[0.697s]       | [01;35m[K^[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/kernel/internal/mm.h:165:1:[m[K [01;35m[Kwarning: [m[Kembedding a directive within macro arguments is not portable
+[0.697s]   165 | [01;35m[K#[m[Kendif /* (CONFIG_SRAM_BASE_ADDRESS + (CONFIG_SRAM_SIZE * 1024UL)) != 0 */
+[0.697s]       | [01;35m[K^[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:[m[K In function '[01m[Krcutils_logging_console_output_handler[m[K':
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:802:35:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kisatty[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.697s]   802 | # define IS_STREAM_A_TTY(stream) ([01;35m[Kisatty[m[K(fileno(stream)) != 0)
+[0.697s]       |                                   [01;35m[K^~~~~~[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:812:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_STREAM_A_TTY[m[K'
+[0.697s]   812 |       is_colorized = [01;36m[KIS_STREAM_A_TTY[m[K(g_output_stream); \
+[0.697s]       |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:936:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_OUTPUT_COLORIZED[m[K'
+[0.697s]   936 |   [01;36m[KIS_OUTPUT_COLORIZED[m[K(is_colorized)
+[0.697s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:802:42:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kfileno[m[K' [[01;35m[K-Wimplicit-function-declaration[m[K]
+[0.697s]   802 | # define IS_STREAM_A_TTY(stream) (isatty([01;35m[Kfileno[m[K(stream)) != 0)
+[0.697s]       |                                          [01;35m[K^~~~~~[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:812:22:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_STREAM_A_TTY[m[K'
+[0.697s]   812 |       is_colorized = [01;36m[KIS_STREAM_A_TTY[m[K(g_output_stream); \
+[0.697s]       |                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/logging.c:936:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KIS_OUTPUT_COLORIZED[m[K'
+[0.697s]   936 |   [01;36m[KIS_OUTPUT_COLORIZED[m[K(is_colorized)
+[0.697s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.697s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:12[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/sys/stat.h:37[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:20[m[K:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:[m[K At top level:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.697s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.697s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.697s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:12[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/sys/stat.h:37[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:20[m[K:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:[m[K At top level:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.697s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.697s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.697s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/sys/stat.h:37[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/unistd.h:20[m[K,
+[0.697s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcutils/src/time_unix.c:44[m[K:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:[m[K At top level:
+[0.697s] [01m[K/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix/time.h:117:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.697s]   117 | #[01;35m[Kinclude_next[m[K <time.h>
+[0.698s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.698s] running egg_info
+[0.698s] writing rcutils.egg-info/PKG-INFO
+[0.698s] writing dependency_links to rcutils.egg-info/dependency_links.txt
+[0.698s] writing top-level names to rcutils.egg-info/top_level.txt
+[0.698s] [ 96%] Linking C static library librcutils.a
+[0.705s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[0.707s] [100%] Built target rcutils
+[1.977s] reading manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.978s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.988s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[1.990s] [100%] Built target ament_cmake_python_build_rcutils_egg
+[1.990s] gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[1.992s] gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils'
+[1.993s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/domain_coordinator:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_xmllint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_uncrustify:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pyflakes:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pep257:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pclint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_package:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_mypy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint_cmake:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_copyright:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_index_python:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cpplint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cppcheck:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_tidy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_format /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils -- -j28 -l28
+[1.994s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/domain_coordinator:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_xmllint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_uncrustify:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pyflakes:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pep257:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pclint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_package:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_mypy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint_cmake:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_copyright:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_index_python:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cpplint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cppcheck:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_tidy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_format /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils
+[1.995s] -- Install configuration: "Release"
+[1.995s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/pythonpath.sh
+[1.995s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/pythonpath.dsv
+[1.996s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.7-py3.10.egg-info
+[1.996s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.7-py3.10.egg-info/SOURCES.txt
+[1.996s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.7-py3.10.egg-info/dependency_links.txt
+[1.996s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.7-py3.10.egg-info/PKG-INFO
+[1.996s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.7-py3.10.egg-info/top_level.txt
+[1.996s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils
+[1.996s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils/__init__.py
+[1.996s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils/logging.py
+[2.013s] Listing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rcutils'...
+[2.015s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/lib/librcutils.a
+[2.016s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+[2.016s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+[2.016s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/ament_prefix_path.sh
+[2.016s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/ament_prefix_path.dsv
+[2.016s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/path.sh
+[2.016s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/environment/path.dsv
+[2.016s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/local_setup.bash
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/local_setup.sh
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/local_setup.zsh
+[2.017s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/local_setup.dsv
+[2.017s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/package.dsv
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages/rcutils
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/rcutilsExport.cmake
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/rcutilsExport-release.cmake
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.017s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig.cmake
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/rcutils/package.xml
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/strdup.h
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/split.h
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/error_handling.h
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/allocator.h
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/configuration_flags.h.in
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/format_string.h
+[2.018s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/isalnum_no_locale.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/macros.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/strcasecmp.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/strerror.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/shared_library.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/visibility_control_macros.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/security_directory.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/qsort.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/visibility_control.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/win32
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/gcc
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+[2.019s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/logging.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/find.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/cmdline_parser.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/snprintf.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/process.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/repl_str.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/time.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/get_env.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/testing
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/testing/fault_injection.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/env.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/hash_map.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/rcutils_ret.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/array_list.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/string_map.h
+[2.020s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/char_array.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/uint8_array.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types/string_array.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/types.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/filesystem.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/logging_macros.h
+[2.021s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/include/rcutils/rcutils/configuration_flags.h
+[2.021s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/domain_coordinator:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_xmllint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_uncrustify:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pyflakes:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pep257:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pclint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_package:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_mypy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint_cmake:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_copyright:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_index_python:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cpplint:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cppcheck:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_tidy:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_clang_format /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/rcutils

@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client-complete.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/home/tmdals010126/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule

@@ -1,0 +1,29 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'dice'
+[33mCMake Warning (dev) at /usr/local/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /home/tmdals010126/ros2_humble/install/fastrtps/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:[m[K In static member function ‘[01m[Kstatic std::unique_ptr<eprosima::uxr::Participant> eprosima::uxr::Participant::create(const dds::xrce::ObjectId&, const std::shared_ptr<eprosima::uxr::ProxyClient>&, const dds::xrce::OBJK_PARTICIPANT_Representation&)[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:94:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   94 |             DiceResult [01;35m[Kresult[m[K;
+      |                        [01;35m[K^~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:96:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcert_buffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   96 |             uint8_t [01;35m[Kcert_buffer[m[K[2048];
+      |                     [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/participant/Participant.cpp:97:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcert_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   97 |             size_t [01;35m[Kcert_size[m[K;
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/Root.cpp:[m[K In member function ‘[01m[Kdds::xrce::ResultStatus eprosima::uxr::Root::create_client(const dds::xrce::CLIENT_Representation&, dds::xrce::AGENT_Representation&, eprosima::uxr::Middleware::Kind)[m[K’:
+[01m[K/home/tmdals010126/uros_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/Root.cpp:84:36:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   84 |             printf("start_time_1: [01;35m[K%d[m[K\n", [32m[Kstart_time_1[m[K);
+      |                                   [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+      |                                    [01;35m[K|[m[K     [32m[K|[m[K
+      |                                    [01;35m[Kint[m[K   [32m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K

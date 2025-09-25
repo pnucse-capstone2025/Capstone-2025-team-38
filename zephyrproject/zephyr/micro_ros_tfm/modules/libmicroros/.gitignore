@@ -1,0 +1,11 @@
+# micro_ros_dev
+# micro_ros_src
+# zephyr_toolchain.cmake
+# include
+# configured_colcon.meta
+*.a 
+micro_ros_src/log/latest
+micro_ros_src/log/latest_build
+
+micro_ros_src/src/log/latest
+micro_ros_src/src/log/latest_list

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "uagent_superbuild",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fastcdr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastcdr-Debug-1fa0fe017c91a3d03104.json",
+					"name" : "fastcdr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fastdds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fastdds-Debug-fd5c75b44c75fdcf2e13.json",
+					"name" : "fastdds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "foonathan_memory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-foonathan_memory-Debug-27fdabb4c8de72d2ddaa.json",
+					"name" : "foonathan_memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microxrcedds_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microxrcedds_client-Debug-411f9177651882bf45b2.json",
+					"name" : "microxrcedds_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uagent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uagent-Debug-6383c37a10f16407e1d6.json",
+					"name" : "uagent",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build",
+		"source" : "/home/tmdals010126/Micro-XRCE-DDS-Agent"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

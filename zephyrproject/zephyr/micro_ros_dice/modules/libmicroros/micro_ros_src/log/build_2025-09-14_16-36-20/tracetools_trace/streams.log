@@ -1,0 +1,35 @@
+[1.004s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/ros2_tracing/tracetools_trace': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/install.log --single-version-externally-managed install_data
+[1.089s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.089s]   warnings.warn(msg)
+[1.118s] running egg_info
+[1.122s] writing ../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+[1.122s] writing entry points to ../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+[1.122s] writing requirements to ../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+[1.122s] writing top-level names to ../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+[2.641s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[2.642s] running build
+[2.642s] running build_py
+[2.642s] copying tracetools_trace/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace
+[2.642s] copying tracetools_trace/trace.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace
+[2.642s] copying tracetools_trace/tools/names.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.642s] copying tracetools_trace/tools/lttng_impl.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.642s] copying tracetools_trace/tools/args.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.642s] copying tracetools_trace/tools/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.642s] copying tracetools_trace/tools/signals.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.642s] copying tracetools_trace/tools/path.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.643s] copying tracetools_trace/tools/lttng_stub.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.643s] copying tracetools_trace/tools/lttng.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.643s] copying tracetools_trace/tools/tracepoints.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build/lib/tracetools_trace/tools
+[2.643s] running install
+[2.644s] running install_lib
+[2.649s] running install_data
+[2.649s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/tracetools_trace
+[2.649s] copying resource/tracetools_trace -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages
+[2.649s] running install_egg_info
+[2.653s] removing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info' (and everything under it)
+[2.654s] Copying ../../../build/tracetools_trace/tracetools_trace.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info
+[2.654s] running install_scripts
+[2.663s] Installing trace script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/tracetools_trace
+[2.663s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/install.log'
+[2.674s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/ros2_tracing/tracetools_trace' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/tracetools_trace/install.log --single-version-externally-managed install_data

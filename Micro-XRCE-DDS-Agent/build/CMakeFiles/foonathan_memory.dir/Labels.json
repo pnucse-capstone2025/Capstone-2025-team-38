@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/foonathan_memory"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/foonathan_memory.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/foonathan_memory-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"foonathan_memory"
+		],
+		"name" : "foonathan_memory"
+	}
+}

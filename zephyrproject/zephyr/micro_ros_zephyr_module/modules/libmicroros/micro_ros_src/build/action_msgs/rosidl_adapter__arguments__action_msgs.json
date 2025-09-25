@@ -1,0 +1,9 @@
+{
+  "package_name": "action_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcl_interfaces/action_msgs:msg/GoalInfo.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcl_interfaces/action_msgs:msg/GoalStatus.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcl_interfaces/action_msgs:msg/GoalStatusArray.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/rcl_interfaces/action_msgs:srv/CancelGoal.srv"
+  ]
+}
