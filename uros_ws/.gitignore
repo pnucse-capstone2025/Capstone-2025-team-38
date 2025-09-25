@@ -1,0 +1,59 @@
+# IDE & Editor specific
+.vscode/
+.idea/
+cmake-build-*/
+
+# Common compiled outputs
+*.o
+*.out
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+
+# Debug & profiling files
+*.log
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.gch
+*.pdb
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Visual Studio specific
+*.sdf
+*.opensdf
+*.suo
+*.vcxproj.*
+ipch/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Toolchain files to ignore
+firmware/zephyr_apps/microros_extensions/arm_toolchain.cmake
+firmware/zephyr_apps/microros_extensions/host_toolchain.cmake
+
+# Build artifacts
+build/
+install/
+log/
+firmware/build/
+firmware/zephyr_apps/microros_extensions/build/
+firmware/mcu_ws/build/
+firmware/mcu_ws/install/
+firmware/mcu_ws/log/
+build__/
+firmware/build/
+
+build__//micro_ros_agent/agent/src/xrceagent
+src/uros/micro-ROS-Agent
+iat/attestation_token.dat
