@@ -1,0 +1,7 @@
+{
+  "package_name": "builtin_interfaces",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/builtin_interfaces:msg/Duration.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/src/rcl_interfaces/builtin_interfaces:msg/Time.msg"
+  ]
+}

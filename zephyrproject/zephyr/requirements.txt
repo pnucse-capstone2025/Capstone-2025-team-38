@@ -1,0 +1,13 @@
+patool
+requests
+semver
+catkin_pkg
+
+pyelftools
+empy==3.3.4
+click
+jinja2
+cryptography
+cbor2
+intelhex
+lark

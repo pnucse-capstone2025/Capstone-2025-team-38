@@ -1,0 +1,15 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/Goals.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:srv/LoadMap.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

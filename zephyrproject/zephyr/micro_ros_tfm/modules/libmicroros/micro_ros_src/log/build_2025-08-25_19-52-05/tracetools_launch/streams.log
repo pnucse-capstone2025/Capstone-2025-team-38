@@ -1,0 +1,29 @@
+[0.352s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/ros2_tracing/tracetools_launch': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/install.log --single-version-externally-managed install_data
+[0.420s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.420s]   warnings.warn(msg)
+[0.449s] running egg_info
+[0.453s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[0.453s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[0.453s] writing entry points to ../../../build/tracetools_launch/tracetools_launch.egg-info/entry_points.txt
+[0.453s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[0.453s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[0.484s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[0.484s] running build
+[0.484s] running build_py
+[0.484s] copying tracetools_launch/action.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/build/lib/tracetools_launch
+[0.484s] copying tracetools_launch/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/build/lib/tracetools_launch
+[0.484s] copying tracetools_launch/actions/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/build/lib/tracetools_launch/actions
+[0.484s] copying tracetools_launch/actions/ld_preload.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/build/lib/tracetools_launch/actions
+[0.484s] running install
+[0.486s] running install_lib
+[0.490s] running install_data
+[0.491s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools_launch
+[0.491s] copying launch/example.launch.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools_launch/launch
+[0.491s] copying launch/example.launch.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools_launch/launch
+[0.491s] copying launch/example.launch.yaml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/tracetools_launch/launch
+[0.491s] copying resource/tracetools_launch -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages
+[0.491s] running install_egg_info
+[0.495s] removing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_launch-4.1.1-py3.10.egg-info' (and everything under it)
+[0.495s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/tracetools_launch-4.1.1-py3.10.egg-info
+[0.495s] running install_scripts
+[0.503s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/tracetools_launch/install.log'

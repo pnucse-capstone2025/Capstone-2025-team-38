@@ -1,0 +1,14 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+-- Configuring done (0.0s)
+CMake Error at CMakeLists.txt:368 (target_include_directories):
+  Error evaluating generator expression:
+
+    $<TARGET_PROPERTY:tfm,TFM_BINARY_DIR>
+
+  Target "tfm" not found.
+
+
+-- Generating done (0.0s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+gmake[1]: *** [Makefile:849: cmake_check_build_system] Error 1
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'

@@ -1,0 +1,1 @@
+/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/library/psa_crypto_driver_wrappers_no_static.c

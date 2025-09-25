@@ -1,0 +1,44 @@
+[0.440s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_lint': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/install.log --single-version-externally-managed install_data
+[0.507s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.507s] !!
+[0.507s] 
+[0.507s]         ********************************************************************************
+[0.507s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.507s] 
+[0.507s]         License :: OSI Approved :: Apache Software License
+[0.507s] 
+[0.507s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.507s]         ********************************************************************************
+[0.507s] 
+[0.507s] !!
+[0.507s]   self._finalize_license_expression()
+[0.520s] running egg_info
+[0.523s] creating ../../../build/ament_lint/ament_lint.egg-info
+[0.524s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[0.524s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[0.524s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[0.524s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[0.549s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[0.549s] running build
+[0.549s] running build_py
+[0.549s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[0.549s] copying ament_lint/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[0.549s] copying ament_lint/pytest_marker.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build/lib/ament_lint
+[0.549s] running install
+[0.551s] running install_lib
+[0.556s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[0.556s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[0.557s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint
+[0.557s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint/__init__.py to __init__.cpython-310.pyc
+[0.557s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.557s] running install_data
+[0.557s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/share/ament_lint
+[0.557s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/share/ament_index/resource_index/packages
+[0.557s] copying resource/ament_lint -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/share/ament_index/resource_index/packages
+[0.557s] running install_egg_info
+[0.558s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages/ament_lint-0.12.14-py3.10.egg-info
+[0.559s] running install_scripts
+[0.565s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/install.log'
+[0.577s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_lint/install.log --single-version-externally-managed install_data

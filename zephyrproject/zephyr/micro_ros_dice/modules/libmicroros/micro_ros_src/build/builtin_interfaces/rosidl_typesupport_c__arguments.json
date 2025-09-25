@@ -1,0 +1,19 @@
+{
+  "package_name": "builtin_interfaces",
+  "output_dir": "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/builtin_interfaces/rosidl_typesupport_c/builtin_interfaces",
+  "template_dir": "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Duration.idl",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces:msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_typesupport_c/__init__.py",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces/msg/Duration.idl",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/builtin_interfaces/rosidl_adapter/builtin_interfaces/msg/Time.idl"
+  ]
+}

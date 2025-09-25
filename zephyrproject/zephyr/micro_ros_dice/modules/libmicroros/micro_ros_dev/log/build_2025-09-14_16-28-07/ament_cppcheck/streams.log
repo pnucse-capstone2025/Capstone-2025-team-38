@@ -1,0 +1,47 @@
+[0.452s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_cppcheck': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[0.508s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.508s]   warnings.warn(msg)
+[0.518s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.518s] !!
+[0.518s] 
+[0.518s]         ********************************************************************************
+[0.518s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.518s] 
+[0.518s]         License :: OSI Approved :: Apache Software License
+[0.518s] 
+[0.519s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.519s]         ********************************************************************************
+[0.519s] 
+[0.519s] !!
+[0.519s]   self._finalize_license_expression()
+[0.532s] running egg_info
+[0.535s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[0.535s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[0.535s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[0.535s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[0.535s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[0.535s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[0.535s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.559s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[0.559s] running build
+[0.560s] running build_py
+[0.560s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.560s] copying ament_cppcheck/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.560s] copying ament_cppcheck/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build/lib/ament_cppcheck
+[0.560s] running install
+[0.562s] running install_lib
+[0.565s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[0.565s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[0.565s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck
+[0.565s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/main.py to main.cpython-310.pyc
+[0.566s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck/__init__.py to __init__.cpython-310.pyc
+[0.566s] running install_data
+[0.566s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/share/ament_cppcheck
+[0.566s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/share/ament_index/resource_index/packages
+[0.566s] copying resource/ament_cppcheck -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/share/ament_index/resource_index/packages
+[0.566s] running install_egg_info
+[0.570s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages/ament_cppcheck-0.12.14-py3.10.egg-info
+[0.570s] running install_scripts
+[0.577s] Installing ament_cppcheck script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/bin
+[0.577s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/install.log'
+[0.599s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cppcheck/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/build/ament_cppcheck/install.log --single-version-externally-managed install_data

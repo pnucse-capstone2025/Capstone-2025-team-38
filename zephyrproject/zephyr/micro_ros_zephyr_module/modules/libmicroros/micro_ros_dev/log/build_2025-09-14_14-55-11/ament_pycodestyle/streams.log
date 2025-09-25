@@ -1,0 +1,51 @@
+[0.443s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_pycodestyle': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/install.log --single-version-externally-managed install_data
+[0.500s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.501s]   warnings.warn(msg)
+[0.511s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.511s] !!
+[0.511s] 
+[0.511s]         ********************************************************************************
+[0.511s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.511s] 
+[0.511s]         License :: OSI Approved :: Apache Software License
+[0.511s] 
+[0.511s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.511s]         ********************************************************************************
+[0.511s] 
+[0.511s] !!
+[0.511s]   self._finalize_license_expression()
+[0.524s] running egg_info
+[0.527s] creating ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[0.527s] writing ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[0.528s] writing dependency_links to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[0.528s] writing entry points to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[0.528s] writing requirements to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[0.528s] writing top-level names to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[0.528s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[0.552s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[0.552s] running build
+[0.552s] running build_py
+[0.552s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.552s] copying ament_pycodestyle/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.552s] copying ament_pycodestyle/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[0.552s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[0.552s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[0.552s] running install
+[0.554s] running install_lib
+[0.558s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[0.558s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[0.558s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[0.558s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[0.559s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[0.559s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+[0.559s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/share/ament_pycodestyle
+[0.559s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[0.559s] copying resource/ament_pycodestyle -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[0.559s] running install_egg_info
+[0.562s] Copying ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle-0.12.14-py3.10.egg-info
+[0.562s] running install_scripts
+[0.569s] Installing ament_pycodestyle script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/bin
+[0.569s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/install.log'
+[0.589s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages: /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_pycodestyle/install.log --single-version-externally-managed install_data

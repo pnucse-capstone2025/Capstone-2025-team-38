@@ -1,0 +1,22 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosidl_typesupport_introspection_tests'
+-- Found ament_cmake: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosidl_typesupport_introspection_tests
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/build/rosidl_typesupport_introspection_tests'
+-- Install configuration: "Release"
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_introspection_tests
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_introspection_tests
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/environment/ament_prefix_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/environment/path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/environment/path.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/local_setup.bash
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/local_setup.sh
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/local_setup.zsh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/local_setup.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/package.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages/rosidl_typesupport_introspection_tests
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/cmake/rosidl_typesupport_introspection_testsConfig.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/cmake/rosidl_typesupport_introspection_testsConfig-version.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_dice/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_introspection_tests/package.xml

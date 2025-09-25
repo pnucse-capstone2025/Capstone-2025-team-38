@@ -1,0 +1,11 @@
+CMake Error at /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+  No 'rosidl_typesupport_cpp' found
+Call Stack (most recent call first):
+  /home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cpp-extras.cmake:8 (get_used_typesupports)
+  /home/tmdals010126/ros2_humble/install/rosidl_typesupport_cpp/share/rosidl_typesupport_cpp/cmake/rosidl_typesupport_cppConfig.cmake:41 (include)
+  /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+  /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+
+gmake[1]: *** [Makefile:1160: cmake_check_build_system] Error 1

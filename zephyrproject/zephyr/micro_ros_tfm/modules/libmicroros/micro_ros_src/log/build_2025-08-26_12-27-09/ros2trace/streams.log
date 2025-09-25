@@ -1,0 +1,39 @@
+[0.354s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/ros2_tracing/ros2trace': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/ros2trace/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/ros2trace/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/ros2trace/install.log --single-version-externally-managed install_data
+[0.387s] Traceback (most recent call last):
+[0.387s]   File "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/ros2_tracing/ros2trace/setup.py", line 1, in <module>
+[0.387s]     from setuptools import find_packages
+[0.387s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/__init__.py", line 21, in <module>
+[0.387s]     import _distutils_hack.override  # noqa: F401
+[0.387s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/_distutils_hack/override.py", line 1, in <module>
+[0.387s]     __import__('_distutils_hack').do_override()
+[0.387s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 89, in do_override
+[0.387s]     ensure_local_distutils()
+[0.387s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 72, in ensure_local_distutils
+[0.387s]     importlib.import_module('distutils')
+[0.387s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.387s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.387s]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[0.387s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[0.387s]   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+[0.387s]   File "<frozen importlib._bootstrap>", line 945, in _find_spec
+[0.387s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 109, in find_spec
+[0.387s]     return method()
+[0.388s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/_distutils_hack/__init__.py", line 120, in spec_for_distutils
+[0.388s]     mod = importlib.import_module('setuptools._distutils')
+[0.388s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.388s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.388s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/__init__.py", line 12, in <module>
+[0.388s]     importlib.import_module('_distutils_system_mod')
+[0.388s]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[0.388s]     return _bootstrap._gcd_import(name[level:], package, level)
+[0.388s]   File "/usr/lib/python3.10/_distutils_system_mod.py", line 16, in <module>
+[0.388s]     import distutils.command.install as orig_install
+[0.388s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/command/install.py", line 23, in <module>
+[0.388s]     from . import _framework_compat as fw
+[0.388s]   File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/command/_framework_compat.py", line 13, in <module>
+[0.388s]     def enabled():
+[0.388s]   File "/usr/lib/python3.10/functools.py", line 513, in lru_cache
+[0.388s]     return update_wrapper(wrapper, user_function)
+[0.388s]   File "/usr/lib/python3.10/functools.py", line 52, in update_wrapper
+[0.388s]     value = getattr(wrapped, attr)
+[0.388s] KeyboardInterrupt

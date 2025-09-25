@@ -1,0 +1,54 @@
+[0.324s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/install.log --single-version-externally-managed install_data
+[0.388s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.388s]   warnings.warn(msg)
+[0.394s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.394s] !!
+[0.394s] 
+[0.394s]         ********************************************************************************
+[0.394s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.394s] 
+[0.395s]         License :: OSI Approved :: Apache Software License
+[0.395s] 
+[0.395s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.395s]         ********************************************************************************
+[0.395s] 
+[0.395s] !!
+[0.395s]   self._finalize_license_expression()
+[0.408s] running egg_info
+[0.412s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.412s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.412s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.412s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.412s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.412s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.412s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.444s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.444s] running build
+[0.444s] running build_py
+[0.444s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[0.444s] copying ament_flake8/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[0.444s] copying ament_flake8/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[0.444s] copying ament_flake8/pytest_marker.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[0.445s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.445s] copying ament_flake8/configuration/ament_flake8.ini -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.445s] running install
+[0.448s] running install_lib
+[0.456s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.457s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.457s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.457s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.457s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[0.457s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[0.458s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/main.py to main.cpython-310.pyc
+[0.459s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/__init__.py to __init__.cpython-310.pyc
+[0.459s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.459s] running install_data
+[0.459s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/share/ament_flake8
+[0.460s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/share/ament_index/resource_index/packages
+[0.460s] copying resource/ament_flake8 -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/share/ament_index/resource_index/packages
+[0.462s] running install_egg_info
+[0.466s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8-0.12.14-py3.10.egg-info
+[0.470s] running install_scripts
+[0.508s] Installing ament_flake8 script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/bin
+[0.508s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/install.log'
+[0.510s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/build/ament_flake8/install.log --single-version-externally-managed install_data

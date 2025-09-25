@@ -1,0 +1,24 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/test_tracetools'
+-- Found ament_cmake: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Checking for module 'lttng-ust'
+--   No package 'lttng-ust' found
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/test_tracetools
+gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/test_tracetools'
+-- Install configuration: "Release"
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/test_tracetools
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/test_tracetools
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/environment/ament_prefix_path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/environment/path.sh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/environment/path.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/local_setup.bash
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/local_setup.sh
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/local_setup.zsh
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/local_setup.dsv
+-- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/package.dsv
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages/test_tracetools
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/cmake/test_tracetoolsConfig.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/cmake/test_tracetoolsConfig-version.cmake
+-- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install/share/test_tracetools/package.xml

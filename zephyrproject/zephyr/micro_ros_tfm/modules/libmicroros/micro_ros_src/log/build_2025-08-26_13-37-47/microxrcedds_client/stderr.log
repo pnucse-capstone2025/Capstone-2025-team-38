@@ -1,0 +1,10 @@
+CMake Error at CMakeLists.txt:368 (target_include_directories):
+  Error evaluating generator expression:
+
+    $<TARGET_PROPERTY:tfm,TFM_BINARY_DIR>
+
+  Target "tfm" not found.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+gmake[1]: *** [Makefile:849: cmake_check_build_system] Error 1

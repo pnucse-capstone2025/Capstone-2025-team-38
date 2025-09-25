@@ -1,0 +1,97 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastdds-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-test.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastdds/src/fastdds-stamp/fastdds-update.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/foonathan_memory-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastdds"
+		],
+		"name" : "fastdds"
+	}
+}

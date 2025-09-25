@@ -1,0 +1,248 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libmicrocdr.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_options",
+			"set_common_compile_options",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/common/check_configuration.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 120,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-c -I/home/tmdals010126/zephyrproject/zephyr/include/posix -I/home/tmdals010126/zephyrproject/zephyr/build/zephyr/include/generated -I/home/tmdals010126/zephyrproject/zephyr/build/zephyr/include/generated/zephyr -I/home/tmdals010126/zephyrproject/zephyr/include -I/home/tmdals010126/zephyrproject/zephyr/build/zephyr/include/generated -I/home/tmdals010126/zephyrproject/zephyr/soc/st/stm32 -I/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include -I/home/tmdals010126/zephyrproject/zephyr/lib/libc/common/include -I/home/tmdals010126/zephyrproject/zephyr/include/zephyr/posix -I/home/tmdals010126/zephyrproject/zephyr/lib/cpp/minimal/include -I/home/tmdals010126/zephyrproject/zephyr/soc/st/stm32/common/. -I/home/tmdals010126/zephyrproject/zephyr/drivers -I/home/tmdals010126/zephyrproject/zephyr/soc/st/stm32/stm32l5x/. -I/home/tmdals010126/zephyrproject/modules/hal/cmsis/CMSIS/Core/Include -I/home/tmdals010126/zephyrproject/zephyr/modules/cmsis/. -I/home/tmdals010126/zephyrproject/modules/hal/stm32/stm32cube/stm32l5xx/soc -I/home/tmdals010126/zephyrproject/modules/hal/stm32/stm32cube/stm32l5xx/drivers/include -I/home/tmdals010126/zephyrproject/modules/hal/stm32/stm32cube/common_ll/include -DKERNEL -D__ZEPHYR__=1 -D_ANSI_SOURCE -D__LINUX_ERRNO_EXTENSIONS__ -D__PROGRAM_START -DSTM32L552xx -DUSE_HAL_DRIVER -DUSE_FULL_LL_DRIVER -DHSE_VALUE=8000000 -fno-strict-aliasing -Os -imacros /home/tmdals010126/zephyrproject/zephyr/build/zephyr/include/generated/zephyr/autoconf.h -fno-common -g -gdwarf-4 -fdiagnostics-color=always -mcpu=cortex-m33 -mthumb -mabi=aapcs -mfp16-format=ieee --sysroot=/home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi -imacros /home/tmdals010126/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h -Wall -Wformat -Wformat-security -Wformat -Wno-format-zero-length -Wdouble-promotion -Wno-pointer-sign -Wpointer-arith -Wexpansion-to-defined -Wno-unused-but-set-variable -Werror=implicit-int -fno-pic -fno-pie -fno-asynchronous-unwind-tables -fno-reorder-functions --param=min-pagesize=0 -fno-defer-pop -fmacro-prefix-map=/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module=CMAKE_SOURCE_DIR -fmacro-prefix-map=/home/tmdals010126/zephyrproject/zephyr=ZEPHYR_BASE -fmacro-prefix-map=/home/tmdals010126/zephyrproject=WEST_TOPDIR -ffunction-sections -fdata-sections -D_POSIX_THREADS -isystem/home/tmdals010126/zephyrproject/zephyr/lib/libc/common/include -isystem/home/tmdals010126/zephyrproject/zephyr/lib/cpp/minimal/include -O3 -DNDEBUG -std=gnu99 -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wrestrict"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffunction-sections"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/src/micro-CDR/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/build/microcdr/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros"
+			}
+		}
+	],
+	"id" : "microcdr::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/tmdals010126/zephyrproject/zephyr/micro_ros_zephyr_module/modules/libmicroros/micro_ros_src/install"
+		}
+	},
+	"name" : "microcdr",
+	"nameOnDisk" : "libmicrocdr.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/basic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/array.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/c/types/sequence.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,16 @@
+[0.006s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client -- -j28 -l28
+[0.008s] gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+[0.014s] -- Configuring done (0.0s)
+[0.015s] CMake Error at CMakeLists.txt:368 (target_include_directories):
+[0.015s]   Error evaluating generator expression:
+[0.015s] 
+[0.015s]     $<TARGET_PROPERTY:tfm,TFM_BINARY_DIR>
+[0.015s] 
+[0.015s]   Target "tfm" not found.
+[0.015s] 
+[0.015s] 
+[0.019s] -- Generating done (0.0s)
+[0.019s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.019s] gmake[1]: *** [Makefile:849: cmake_check_build_system] Error 1
+[0.020s] gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client'
+[0.020s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client' returned '2': CMAKE_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install:${CMAKE_PREFIX_PATH} PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microxrcedds_client -- -j28 -l28

@@ -1,0 +1,52 @@
+[0.498s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/rosidl/rosidl_cli': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[0.577s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.578s]   warnings.warn(msg)
+[0.588s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.588s] !!
+[0.589s] 
+[0.589s]         ********************************************************************************
+[0.589s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.589s] 
+[0.589s]         License :: OSI Approved :: Apache Software License
+[0.589s] 
+[0.589s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.589s]         ********************************************************************************
+[0.589s] 
+[0.589s] !!
+[0.589s]   self._finalize_license_expression()
+[0.605s] running egg_info
+[0.609s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[0.609s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[0.610s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[0.610s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[0.610s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[0.637s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[0.637s] running build
+[0.637s] running build_py
+[0.637s] copying rosidl_cli/cli.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[0.637s] copying rosidl_cli/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[0.637s] copying rosidl_cli/common.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[0.637s] copying rosidl_cli/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[0.637s] copying rosidl_cli/entry_points.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[0.637s] copying rosidl_cli/command/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[0.638s] copying rosidl_cli/command/helpers.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[0.638s] copying rosidl_cli/command/translate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[0.638s] copying rosidl_cli/command/translate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[0.638s] copying rosidl_cli/command/translate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[0.638s] copying rosidl_cli/command/generate/api.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[0.638s] copying rosidl_cli/command/generate/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[0.638s] copying rosidl_cli/command/generate/extensions.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[0.638s] running install
+[0.641s] running install_lib
+[0.645s] running install_data
+[0.645s] copying resource/rosidl_cli -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/ament_index/resource_index/packages
+[0.645s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli
+[0.646s] copying completion/rosidl-argcomplete.bash -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli/environment
+[0.646s] copying completion/rosidl-argcomplete.zsh -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/rosidl_cli/environment
+[0.646s] running install_egg_info
+[0.649s] removing '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli-3.1.7-py3.10.egg-info' (and everything under it)
+[0.650s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli-3.1.7-py3.10.egg-info
+[0.650s] running install_scripts
+[0.658s] Installing rosidl script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/bin
+[0.658s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log'
+[0.670s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed install_data

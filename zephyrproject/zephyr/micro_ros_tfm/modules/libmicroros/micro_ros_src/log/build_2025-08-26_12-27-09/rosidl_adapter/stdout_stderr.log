@@ -1,0 +1,52 @@
+gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+-- Found ament_cmake: 1.3.12 (/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter
+gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+Built target ament_cmake_python_copy_rosidl_adapter_setup
+Built target ament_cmake_python_copy_rosidl_adapter
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter'
+Traceback (most recent call last):
+  File "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/rosidl_adapter/ament_cmake_python/rosidl_adapter/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/__init__.py", line 26, in <module>
+    from .dist import Distribution
+  File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py", line 16, in <module>
+    from packaging.markers import InvalidMarker, Marker
+  File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/packaging/markers.py", line 11, in <module>
+    from ._parser import MarkerAtom, MarkerList, Op, Value, Variable, parse_marker
+  File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/packaging/_parser.py", line 10, in <module>
+    from ._tokenizer import DEFAULT_RULES, Tokenizer
+  File "/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/packaging/_tokenizer.py", line 75, in <module>
+    "VERSION": re.compile(Specifier._version_regex_str, re.VERBOSE | re.IGNORECASE),
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+    code = _code(p, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 631, in _code
+    _compile(code, p.data, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 184, in _compile
+    _compile(code, p, _combine_flags(flags, add_flags, del_flags))
+  File "/usr/lib/python3.10/sre_compile.py", line 225, in _compile
+    _compile(code, av, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 172, in _compile
+    _compile(code, av[2], flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 107, in _compile
+    if op in LITERAL_CODES:
+KeyboardInterrupt
+gmake[3]: *** [CMakeFiles/ament_cmake_python_build_rosidl_adapter_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_rosidl_adapter_egg] Interrupt
+gmake[2]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_rosidl_adapter_egg.dir/all] Interrupt
+gmake[1]: *** [Makefile:134: all] Interrupt

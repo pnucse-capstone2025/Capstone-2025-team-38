@@ -1,0 +1,22 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm_base/modules/libmicroros/micro_ros_src/src/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv"
+  ]
+}

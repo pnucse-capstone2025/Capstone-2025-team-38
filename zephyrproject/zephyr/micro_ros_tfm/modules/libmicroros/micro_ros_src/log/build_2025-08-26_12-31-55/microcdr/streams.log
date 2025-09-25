@@ -1,0 +1,76 @@
+[0.105s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr': /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr -- -j28 -l28
+[0.355s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/../common_internal.h:22[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/basic.c:15[m[K:
+[0.356s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.356s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.356s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.356s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common_internal.h:22[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common.c:15[m[K:
+[0.356s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.356s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.356s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.356s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/../common_internal.h:22[m[K,
+[0.356s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/array.c:15[m[K:
+[0.356s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.356s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.357s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.357s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/common.c:17[m[K:
+[0.357s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.357s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.357s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.357s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/basic.c:17[m[K:
+[0.357s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.357s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.357s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.357s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/array.c:17[m[K:
+[0.357s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.357s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.357s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.357s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+[0.357s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/sequence.c:15[m[K:
+[0.357s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.357s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.357s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.358s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/include/ucdr/microcdr.h:25[m[K,
+[0.358s]                  from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/string.c:16[m[K:
+[0.358s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/stdint.h:28:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.358s]    28 | #[01;35m[Kinclude_next[m[K <stdint.h>
+[0.358s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.358s] In file included from [01m[K/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/src/micro-CDR/src/c/types/string.c:18[m[K:
+[0.358s] [01m[K/home/tmdals010126/zephyrproject/zephyr/lib/libc/newlib/include/string.h:16:2:[m[K [01;35m[Kwarning: [m[K#include_next is a GCC extension
+[0.358s]    16 | #[01;35m[Kinclude_next[m[K <string.h>
+[0.358s]       |  [01;35m[K^~~~~~~~~~~~[m[K
+[0.358s] gmake[1]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.358s] -- Configuring done (0.0s)
+[0.358s] -- Generating done (0.0s)
+[0.358s] -- Build files have been written to: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr
+[0.358s] gmake[2]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.358s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.358s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.359s] gmake[3]: Entering directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.359s] [ 16%] Building C object CMakeFiles/microcdr.dir/src/c/common.c.obj
+[0.359s] [ 33%] Building C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj
+[0.359s] [ 50%] Building C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj
+[0.359s] [ 66%] Building C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj
+[0.359s] [ 83%] Building C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+[0.462s] [100%] Linking C static library libmicrocdr.a
+[0.467s] gmake[3]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.469s] [100%] Built target microcdr
+[0.469s] gmake[2]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.470s] gmake[1]: Leaving directory '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr'
+[0.471s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr' returned '0': /usr/local/bin/cmake --build /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr -- -j28 -l28
+[0.471s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr': /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr
+[0.473s] -- Install configuration: "Release"
+[0.473s] -- Installing: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/lib/libmicrocdr.a
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/visibility.h
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/microcdr.h
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/include/ucdr/config.h
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+[0.473s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.474s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+[0.474s] -- Up-to-date: /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.474s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr' returned '0': /usr/local/bin/cmake --install /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_src/build/microcdr

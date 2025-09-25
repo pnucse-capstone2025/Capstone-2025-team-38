@@ -1,0 +1,47 @@
+[0.300s] Invoking command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/install.log --single-version-externally-managed install_data
+[0.370s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.370s]   warnings.warn(msg)
+[0.383s] /home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[0.383s] !!
+[0.383s] 
+[0.383s]         ********************************************************************************
+[0.383s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[0.383s] 
+[0.383s]         License :: OSI Approved :: Apache Software License
+[0.383s] 
+[0.383s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[0.383s]         ********************************************************************************
+[0.383s] 
+[0.383s] !!
+[0.383s]   self._finalize_license_expression()
+[0.400s] running egg_info
+[0.400s] creating ../../../build/ament_pyflakes/ament_pyflakes.egg-info
+[0.400s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[0.400s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[0.400s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[0.400s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[0.400s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[0.400s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[0.417s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[0.418s] running build
+[0.418s] running build_py
+[0.418s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build/lib/ament_pyflakes
+[0.418s] copying ament_pyflakes/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build/lib/ament_pyflakes
+[0.418s] copying ament_pyflakes/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build/lib/ament_pyflakes
+[0.418s] running install
+[0.421s] running install_lib
+[0.422s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[0.422s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build/lib/ament_pyflakes/main.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[0.422s] copying /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build/lib/ament_pyflakes/__init__.py -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[0.422s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/main.py to main.cpython-310.pyc
+[0.423s] byte-compiling /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/__init__.py to __init__.cpython-310.pyc
+[0.423s] running install_data
+[0.423s] copying package.xml -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/share/ament_pyflakes
+[0.423s] creating /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/share/ament_index/resource_index/packages
+[0.423s] copying resource/ament_pyflakes -> /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/share/ament_index/resource_index/packages
+[0.423s] running install_egg_info
+[0.434s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes-0.12.14-py3.10.egg-info
+[0.434s] running install_scripts
+[0.434s] Installing ament_pyflakes script to /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/bin
+[0.434s] writing list of installed files to '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/install.log'
+[0.451s] Invoked command in '/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/src/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle PATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/prefix_override:/home/tmdals010126/zephyrproject/.venv/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pyflakes/lib/python3.10/site-packages:/home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages /home/tmdals010126/zephyrproject/.venv/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/build install --record /home/tmdals010126/zephyrproject/zephyr/micro_ros_tfm/modules/libmicroros/micro_ros_dev/build/ament_pyflakes/install.log --single-version-externally-managed install_data

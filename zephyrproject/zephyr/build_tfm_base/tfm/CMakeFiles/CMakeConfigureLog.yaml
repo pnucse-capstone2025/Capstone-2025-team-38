@@ -1,0 +1,307 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      The target system is: Generic -  - cortex-m33+nofp
+      The host system is: Linux - 5.15.0-142-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Build flags: -mcpu=cortex-m33+nofp
+      Id flags:  
+      
+      The output was:
+      1
+      /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x1a): undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+      Build flags: -mcpu=cortex-m33+nofp
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/3.27.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Build flags: -mcpu=cortex-m33+nofp
+      Id flags:  
+      
+      The output was:
+      1
+      /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x1a): undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+      Build flags: -mcpu=cortex-m33+nofp
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/3.27.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "/usr/local/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:40 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-zephyr-eabi-gcc (Zephyr SDK 0.17.0) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/CMakeLists.txt:137 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob"
+      binary: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33+nofp"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake/set_extensions.cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d38fc
+        [1/2] /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mcpu=cortex-m33+nofp -o CMakeFiles/cmTC_d38fc.dir/src.o -c /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c: In function 'main':
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c:11:3: warning: implicit declaration of function 'pthread_create' [-Wimplicit-function-declaration]
+           11 |   pthread_create(&thread, NULL, test_func, NULL);
+              |   ^~~~~~~~~~~~~~
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c:12:3: warning: implicit declaration of function 'pthread_detach' [-Wimplicit-function-declaration]
+           12 |   pthread_detach(thread);
+              |   ^~~~~~~~~~~~~~
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c:13:3: warning: implicit declaration of function 'pthread_cancel' [-Wimplicit-function-declaration]
+           13 |   pthread_cancel(thread);
+              |   ^~~~~~~~~~~~~~
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c:14:3: warning: implicit declaration of function 'pthread_join'; did you mean 'pthread_atfork'? [-Wimplicit-function-declaration]
+           14 |   pthread_join(thread, NULL);
+              |   ^~~~~~~~~~~~
+              |   pthread_atfork
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-0OK1ob/src.c:16:3: warning: implicit declaration of function 'pthread_exit' [-Wimplicit-function-declaration]
+           16 |   pthread_exit(NULL);
+              |   ^~~~~~~~~~~~
+        [2/2] : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp  CMakeFiles/cmTC_d38fc.dir/src.o -o cmTC_d38fc   && :
+        FAILED: cmTC_d38fc 
+        : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp  CMakeFiles/cmTC_d38fc.dir/src.o -o cmTC_d38fc   && :
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x1a): undefined reference to `_exit'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: CMakeFiles/cmTC_d38fc.dir/src.o: in function `main':
+        src.c:(.text+0x22): undefined reference to `pthread_create'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: src.c:(.text+0x2a): undefined reference to `pthread_detach'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: src.c:(.text+0x32): undefined reference to `pthread_cancel'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: src.c:(.text+0x3c): undefined reference to `pthread_join'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: src.c:(.text+0x46): undefined reference to `pthread_atfork'
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: src.c:(.text+0x4c): undefined reference to `pthread_exit'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/CMakeLists.txt:137 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x"
+      binary: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33+nofp"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake/set_extensions.cmake"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f4aa1
+        [1/2] /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc   -mcpu=cortex-m33+nofp -o CMakeFiles/cmTC_f4aa1.dir/CheckForPthreads.o -c /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x/CheckForPthreads.c
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x/CheckForPthreads.c: In function 'main':
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x/CheckForPthreads.c:12:3: warning: implicit declaration of function 'pthread_create' [-Wimplicit-function-declaration]
+           12 |   pthread_create(&thread, 0, start_routine, 0);
+              |   ^~~~~~~~~~~~~~
+        /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-hYRk1x/CheckForPthreads.c:13:3: warning: implicit declaration of function 'pthread_join'; did you mean 'pthread_atfork'? [-Wimplicit-function-declaration]
+           13 |   pthread_join(thread, 0);
+              |   ^~~~~~~~~~~~
+              |   pthread_atfork
+        [2/2] : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp  CMakeFiles/cmTC_f4aa1.dir/CheckForPthreads.o -o cmTC_f4aa1  -pthread && :
+        FAILED: cmTC_f4aa1 
+        : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp  CMakeFiles/cmTC_f4aa1.dir/CheckForPthreads.o -o cmTC_f4aa1  -pthread && :
+        arm-zephyr-eabi-gcc: error: unrecognized command-line option '-pthread'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/CMakeLists.txt:137 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-Gf4W5D"
+      binary: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-Gf4W5D"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33+nofp"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake/set_extensions.cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-Gf4W5D'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_583e3
+        [1/2] /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc   -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_583e3.dir/CheckFunctionExists.o -c /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-Gf4W5D/CheckFunctionExists.c
+        [2/2] : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_583e3.dir/CheckFunctionExists.o -o cmTC_583e3  -lpthreads && :
+        FAILED: cmTC_583e3 
+        : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_583e3.dir/CheckFunctionExists.o -o cmTC_583e3  -lpthreads && :
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: cannot find -lpthreads: No such file or directory
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/local/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/CMakeLists.txt:137 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-ON3Tuf"
+      binary: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-ON3Tuf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33+nofp"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake/set_extensions.cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-ON3Tuf'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_e959d
+        [1/2] /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc   -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e959d.dir/CheckFunctionExists.o -c /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-ON3Tuf/CheckFunctionExists.c
+        [2/2] : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_e959d.dir/CheckFunctionExists.o -o cmTC_e959d  -lpthread && :
+        FAILED: cmTC_e959d 
+        : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_e959d.dir/CheckFunctionExists.o -o cmTC_e959d  -lpthread && :
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: cannot find -lpthread: No such file or directory
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.27/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/tmdals010126/zephyrproject/modules/crypto/mbedtls/CMakeLists.txt:222 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+    directories:
+      source: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-GoNBfL"
+      binary: "/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-GoNBfL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/tmdals010126/zephyrproject/modules/tee/tf-m/trusted-firmware-m/cmake/set_extensions.cmake"
+    buildResult:
+      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-GoNBfL'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_a6e29
+        [1/2] /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_a6e29.dir/src.o -c /home/tmdals010126/zephyrproject/zephyr/build_tfm_base/tfm/CMakeFiles/CMakeScratch/TryCompile-GoNBfL/src.c
+        [2/2] : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_a6e29.dir/src.o -o cmTC_a6e29   && :
+        FAILED: cmTC_a6e29 
+        : && /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc -mcpu=cortex-m33+nofp -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  CMakeFiles/cmTC_a6e29.dir/src.o -o cmTC_a6e29   && :
+        /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld: /home/tmdals010126/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main/nofp/libc.a(lib_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x1a): undefined reference to `_exit'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

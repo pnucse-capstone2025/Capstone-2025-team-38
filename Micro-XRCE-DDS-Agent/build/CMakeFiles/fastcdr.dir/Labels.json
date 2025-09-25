@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr-complete.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule"
+		},
+		{
+			"file" : "/home/tmdals010126/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastcdr"
+		],
+		"name" : "fastcdr"
+	}
+}
