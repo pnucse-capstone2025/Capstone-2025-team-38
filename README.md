@@ -171,9 +171,10 @@ ros2 run micro_ros_agent micro_ros_agent serial -b 115200 \
 
 ## 6. 소개 자료 및 시연 영상
 ### 6.1. 프로젝트 소개 자료
-> PPT 등
+[PPT](docs/03.발표자료/최종보고%20동영상.pdf) 참고
+
 ### 6.2. 시연 영상
-> 영상 링크 또는 주요 장면 설명
+[![발표 동영상](https://i.ytimg.com/vi/qEImVgg-imc/hqdefault.jpg)](https://www.youtube.com/watch?v=qEImVgg-imc)    
 
 ## 7. 팀 구성
 ### 7.1. 팀원별 소개 및 역할 분담
