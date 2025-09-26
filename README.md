@@ -9,7 +9,7 @@
 ### 1.2. 기존의 문제점
 - Micro-ROS[[2]](#ref2) 및 ROS2[[3]](#ref3)의 보안 기능 미흡: 경량화에 초점을 맞춘 Micro-ROS는 인증, 암호화 같은 보안 기능이 충분히 구현되어 있지 않으며 저사양 MCU에서는 추가적인 자원 요구로 인해 보안 기능 구현 자체가 어렵습니다. 또한 하나의 노드가 탈취되면 연결된 모든 기기가 위험에 노출되는 구조적 한계를 가집니다.
 
-- 기존 원격 증명 기술의 한계: TPM(Trusted Platform Module)[[4]](#ref4)과 같은 전통적인 원격 증명 기술은 고성능 CPU와 전용 보안 칩이 필요해 MCU 환경에 적용하기 어렵습니다. 또한 ARMv8-M 아키텍처에 최적화된 TF-M 같은 기술은 대다수의 저사양 MCU에서 지원하지 않아 범용성이 떨어집니다.
+- 기존 원격 증명 기술의 한계: TPM(Trusted Platform Module)[[4]](#ref4)과 같은 전통적인 원격 증명 기술은 고성능 CPU와 전용 보안 칩이 필요해 MCU 환경에 적용하기 어렵습니다. 또한 ARMv8-M 아키텍처에 최적화된 TF-M 같은 기술은 대다수의 저사양 MCU가 지원하지 않아 범용성이 떨어집니다.
 
 - 통신 보안의 부재: Micro-ROS의 핵심 통신 프로토콜인 DDS는 보안 기능이 기본적으로 미비하여 중간자(Man-in-the-Middle) 공격이나 Replay 공격에 쉽게 노출됩니다.
 
@@ -69,13 +69,13 @@ Micro-ROS의 통신 프로토콜인 Micro XRCE-DDS의 세션 생성 과정에 �
 #### 4.1.1. DICE 구현
 <a name="figure2"></a>
 ![DICE 흐름도 이미지](img/fig2.png)
-[Figure 2](#figure2)와 같이 Nucleo-L552ZE-Q 보드에서 접속시도 패킷을 전송하면 Agent에서 Nonce 값 생성 후 전송한다.
-이후 Board 측에서 수신한 Nonce를 가지고 DICE CDI를 생성 후 전송한다. 사전에 화이트리스트로 저장된 펌웨어 hash를 바탕으로 Agent에서 똑같은 연산을 진행하고 이를 비교하여 세션 생성 여부를 결정한다.
+[Figure 2](#figure2)와 같이 Nucleo-L552ZE-Q 보드에서 접속시도 패킷을 전송하면 Agent에서 Nonce 값을 생성한 후 전송한다.
+이후 Board 측에서 수신한 Nonce를 가지고 DICE CDI를 생성한 후 전송한다. 사전에 화이트리스트로 저장된 펌웨어 hash를 바탕으로 Agent에서 똑같은 연산을 진행하고 이를 비교하여 세션 생성 여부를 결정한다.
 
 #### 4.1.2. DICE+MPU 구현
 <a name="figure3"></a>
 ![DICE+MPU 흐름도 이미지](img/fig3.png)
-[Figure 3](#figure3)는 DICE와 거의 유사한 과정을 가진다. 하지만 MPU를 사용하여 어플리케이션의 코드는 unprivileged 권한으로 동작하여 정해진 메모리 범위 외에 접근시에 fault를 발생시켜 메모리 영역 보호 강화한다.
+[Figure 3](#figure3)는 DICE와 거의 유사한 과정을 가진다. 하지만 MPU를 사용하여 어플리케이션의 코드는 unprivileged 권한으로 동작하여 정해진 메모리 범위 외에 접근시에 fault를 발생시켜 메모리 영역을 보호하고 강화한다.
 DICE CDI를 생성할 시엔 flash 영역 hashing을 진행하기에 custom SVC를 정의하여 privileged 권한으로 동작하도록 설정한다.
 
 #### 4.1.3. TFM+TZM 구현
@@ -184,7 +184,7 @@ ros2 run micro_ros_agent micro_ros_agent serial -b 115200 \
 | :------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
 | [**강승민**](https://github.com/tmdals010126)                               | [**김의준**](https://github.com/yeedwig)                               | [**박재선**](https://github.com/sunnypark87)                               |
 | [**자기 소개**](https://veiled-lemming-857.notion.site/PROFILE-school-27831b4ff88480228fd9fb305a183d32?source=copy_link)                               | [**자기 소개**](https://time-walker-f84.notion.site/278b82d83c39800bbfb5c823cb8ce214?source=copy_link)                               | [**자기 소개**](https://feline-bite-26f.notion.site/278a868e440080a293cbd0bf18e92ec9)                               |
-| - Agent side 검증 코드 개발 <br> - TrustedFirmware-M 사용 코드 개발 <br> - zephyr 코드 통합 및 실험 진행 | - zephyr 코드 이식 <br> - 성능 실험 결과 분석 <br> | DICE 기능 개발 <br> - MPU 제어 기능 개발 <br>|
+| - Agent side 검증 코드 개발 <br> - TrustedFirmware-M 사용 코드 개발 <br> - zephyr 코드 통합 및 실험 진행 | - zephyr 코드 이식 <br> - 성능 실험 결과 분석 <br> | - DICE 기능 개발 <br> - MPU 제어 기능 개발 <br>|
 
 </div>
 
